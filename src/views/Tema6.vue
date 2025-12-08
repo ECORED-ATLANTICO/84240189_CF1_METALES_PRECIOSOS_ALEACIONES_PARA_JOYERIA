@@ -3,38 +3,38 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     // ============================================
-    // MÓDULO 2 - MERMA
+    // MÓDULO 6 - MATEMÁTICA BÁSICA
     // ============================================
 
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span 2
-      h1 Merma
+        span 6
+      h1 Matemática básica
 
     Separador 
 
     .row.justify-content-center.align-items-center.mb-0
       .col-12.col-lg-12  
-        #t_2_1.titulo-segundo.color-acento-contenido
-          .h2(data-aos="fade-right") 2.1 Concepto y cálculo
+        #t_6_1.titulo-segundo.color-acento-contenido
+          .h2(data-aos="fade-right") 6.1 Operaciones fundamentales
         .mb-0
 
     Separador 
 
     .row.justify-content-center.align-items-center.mb-0
       .col-12.col-lg-12  
-        #t_2_2.titulo-segundo.color-acento-contenido
-          .h2(data-aos="fade-right") 2.2 Formatos
+        #t_6_2.titulo-segundo.color-acento-contenido
+          .h2(data-aos="fade-right") 6.2 Porcentajes y regla de tres
         .mb-0
 
-
+    
 </template>
 
 <script>
 export default {
-  name: 'Tema2',
+  name: 'Tema6',
   data: () => ({
-    // variables de vue
+    mostrarIndicadorTarjetaAudio: true,
   }),
   mounted() {
     this.$nextTick(() => {

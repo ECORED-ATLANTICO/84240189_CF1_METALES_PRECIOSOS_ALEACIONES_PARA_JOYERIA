@@ -1,1 +1,1 @@
-module.exports = 'Titulo del componente formativo'
+module.exports = 'Metales, insumos y cálculos para aleaciones'

@@ -3,38 +3,37 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     // ============================================
-    // MÓDULO 2 - MERMA
+    // MÓDULO 8 - INSTRUMENTOS DE PESO
     // ============================================
 
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span 2
-      h1 Merma
+        span 8
+      h1 Instrumentos de peso
 
     Separador 
 
     .row.justify-content-center.align-items-center.mb-0
       .col-12.col-lg-12  
-        #t_2_1.titulo-segundo.color-acento-contenido
-          .h2(data-aos="fade-right") 2.1 Concepto y cálculo
+        #t_8_1.titulo-segundo.color-acento-contenido
+          .h2(data-aos="fade-right") 8.1 Concepto y clases
         .mb-0
 
     Separador 
 
     .row.justify-content-center.align-items-center.mb-0
       .col-12.col-lg-12  
-        #t_2_2.titulo-segundo.color-acento-contenido
-          .h2(data-aos="fade-right") 2.2 Formatos
+        #t_8_2.titulo-segundo.color-acento-contenido
+          .h2(data-aos="fade-right") 8.2 Manejo
         .mb-0
-
-
+ 
 </template>
 
 <script>
 export default {
-  name: 'Tema2',
+  name: 'Tema8',
   data: () => ({
-    // variables de vue
+    mostrarIndicadorTarjetaAudio: true,
   }),
   mounted() {
     this.$nextTick(() => {
