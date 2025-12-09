@@ -221,6 +221,36 @@ figcaption
     .slyder-a__bullets__item
       background-color: lighten($color-acento-botones, 15%)
       border: 1px solid lighten($color-acento-botones, 15%)
+  &_4
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: -65px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/temas/tema_3/img_2.png') !important
+      background-repeat: no-repeat
+      pointer-events: none
+  &_5
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: -65px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/temas/tema_3/img_20.png') !important
+      background-repeat: no-repeat
+      pointer-events: none
 
 // factores-slider custom-slider
 .custom-slider
@@ -291,3 +321,195 @@ figcaption
         margin-right: 7px
         @media (max-width: 1024px)
           margin-right: 7px
+
+// Tabla a 
+.tabla-a thead
+  border-top: 5px $color-primario solid !important
+  color: $color-sistema-a
+  background-color: $color-primario-10
+  font-weight: bold
+
+.bg-table-01
+  color: $color-sistema-a
+  background-color: $color-terciario-10
+
+
+///////// Card hover --------------------------------------
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important 
+  &:hover    
+    .crd_hover_txt--body   
+      background-color: $color-terciario-20
+      color: $color-sistema-texto
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+    h4
+      color: $color-sistema-texto !important
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.2rem 0.5rem 1.5rem 0.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: $white
+    &.color-acento-botones
+      background-color: $color-acento-botones
+      &:hover
+        background-color: $color-primario-20
+    &.color-terciario-20
+      background-color: $color-terciario-20
+      &:hover
+        background-color: $color-terciario
+    h4
+      color: $color-sistema-texto
+      font-style: italic
+
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
+
+//// Tarjetas --------------------------------------
+.img90
+  width: 90px
+.crd
+  &.brd--rad
+    border-radius: 20px
+  &.crd--grayGrad
+    padding: 2rem
+    height: 100%
+    background-color: $color-sistema-h
+    border-radius: 15px
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+    &:hover
+      background: linear-gradient(180deg, rgba(25,137,226,1) 0%, rgba(10,81,139,1) 100%)
+      h4, p
+        color: $white
+      .bottomCircle
+        &::before
+          background-color: transparent
+  &.crd--blue
+    background-color: $color-terciario-10
+
+  &.crd--border
+    border: 4px solid $color-acento-botones
+    border-radius: 20px
+
+.bottomCircle
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+    width: 115px
+    height: 115px
+    background-color: transparent
+    border-radius: 999px
+
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 25rem
+  min-width: 260px
+  & > *
+    position: relative
+  h5
+    color: $color-sistema-texto
+  p
+    margin-bottom: 0
+  &::before
+    position: absolute
+    content: ''
+    top: 0
+    right: 3vw
+    width: calc(100% - 4rem)
+    height: 100%
+    background-color: $color-primario-5
+  .col-auto
+    position: relative
+    width: clamp(30px, 8vw, 90px)
+    height: auto
+  .col-auto figure img
+    position: absolute
+    left: 5vw
+    width: 100%
+    max-width: 90px
+    transform: translateY(-50%)
+  @media (max-width: 2560px)
+    &::before
+      right: 2vw
+    .col-auto figure img
+      left: -2rem
+  @media (max-width: 1440px)
+    .col-auto figure img
+      left: -0.3rem
+  @media (max-width: 1024px)
+    padding-right: 3rem
+    &::before
+      right: 3vw
+    .col-auto
+      width: 70px
+    .col-auto figure img
+      left: 0.2rem
+  @media (max-width: 768px)
+    padding-right: 3rem
+    &::before
+      right: 5vw
+    .col-auto figure img
+      left: 0.2rem
+  @media (max-width: 425px)
+    padding-right: 3rem
+    &::before
+      right: 7vw
+    .col-auto figure img
+      left: 0.3rem
+
+.crd--first,.crd--middle
+  &::before
+    background-color: $color-primario-20 !important
+
+.crd--first
+  &::before
+    border-top-left-radius: 30px
+.crd--last
+  &::before
+    background-color: $color-primario-5 !important
+    border-bottom-left-radius: 30px
+
+.avatar
+  position: absolute
+  bottom: 0
+  right: -8rem
+  z-index: 1
+  img
+    width: clamp(230px, 9vw, 590px)
+    height: auto
+    transform: translateY(35px) translateX(-10px)
+  @media (max-width: 1024px)
+    display: none
+
+.bloque_fondo
+  .bloque-texto-g__img
+    width: 100%
+
+.tabs-a.color-primario .tabs-a__tab:hover, .tabs-a.color-primario .tabs-a__tab:active, .tabs-a.color-primario .tabs-a__tab:focus
+  background-color: $color-terciario-10
+  color: $white
+
+.tabs-a__tab
+  background-color: $color-primario-5
+  color: $color-sistema-texto
+.tabs-a.color-primario .tabs-a__tab__selected
+  background-color: $color-terciario-10
+  color: $white
+.tabs-a.color-primario .tabs-a__tab__selected:before
+  background-color: $color-terciario-10
+.tabs-a__content-item
+  background-color: $color-terciario-10
+  border-radius: 10px
