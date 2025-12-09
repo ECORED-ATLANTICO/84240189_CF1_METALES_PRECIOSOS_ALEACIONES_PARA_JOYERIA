@@ -59,6 +59,29 @@
   &.color-secundario
     &:before
       background-color: $color-secundario
+  &.color-secundario-10
+    &:before
+      background-color: $color-secundario-10
+    i
+      font-size: 3.5em
+      color: $color-secundario
+      position: absolute !important 
+      z-index: 10 
+      margin: 0
+      &:first-of-type 
+        top: 0
+        left: 0
+        transform: translate(-10%, -20%)
+      &:last-of-type 
+        bottom: 0
+        right: 0
+        transform: translate(10%, 20%) 
+        vertical-align: initial
+    .bloque-texto-b__texto h4, 
+    .bloque-texto-b__texto p
+      padding-left: 3em !important 
+      padding-right: 3em !important
+      display: block 
   &.color-acento-contenido
     &:before
       background-color: $color-acento-contenido
@@ -260,9 +283,110 @@
 
   &.color-primario
     background-color: $color-primario
+  &.color-primario-5
+    background-color: $color-primario-5
+  &.color-primario-10
+    background-color: $color-primario-10
+  &.color-primario-20
+    background-color: $color-primario-20
+  &.color-primario-60
+    background-color: $color-primario-60
+  &.color-primario-70
+    background-color: $color-primario-70
   &.color-secundario
     background-color: $color-secundario
+  &.color-secundario-5
+    background-color: $color-secundario-5
+  &.color-secundario-10
+    background-color: $color-secundario-10
+  &.color-secundario-20
+    background-color: $color-secundario-20
+  &.color-secundario-60
+    background-color: $color-secundario-60
+  &.color-secundario-70
+    background-color: $color-secundario-70
+  &.color-terciario
+    background-color: $color-terciario
+  &.color-terciario-10
+    background-color: $color-terciario-10
   &.color-acento-contenido
     background-color: $color-acento-contenido
+  &.color-acento-contenido-5
+    background-color: $color-acento-contenido-5
+  &.color-acento-contenido-10
+    background-color: $color-acento-contenido-10
+  &.color-acento-contenido-20
+    background-color: $color-acento-contenido-20
+  &.color-acento-contenido-60
+    background-color: $color-acento-contenido-60
+  &.color-acento-contenido-70
+    background-color: $color-acento-contenido-70
   &.color-acento-botones
     background-color: $color-acento-botones
+
+.bloque-texto-t
+  display: flex
+  flex-direction: column
+  position: relative
+  &:before
+    content: ''
+    display: block
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 50px
+  
+  &__texto
+    position: relative
+    background-color: $white
+    padding: 1rem
+    transform: translateY(-80px)
+    margin: 0
+    border-radius: 5px
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1)
+    &.color-primario
+      background-color: $color-primario
+    &.color-primario-5
+      background-color: $color-primario-5
+    &.color-secundario
+      background-color: $color-secundario
+    &.color-secundario-5
+      background-color: $color-secundario-5
+    &.color-secundario-10
+      background-color: $color-secundario-10
+    &.color-terciario
+      background-color: $color-terciario
+    &.color-acento-contenido
+      background-color: $color-acento-contenido
+    &.color-acento-contenido-10
+      background-color: $color-acento-contenido-10
+    &.color-acento-botones
+      background-color: $color-acento-botones
+    &.color-transparent
+      padding: 0
+      border-radius: 20px
+      background-color: transparent
+      height: 100% !important
+    @media (max-width: 768px)
+      transform: translateY(-30px)
+    @media (max-width: 760px)
+      transform: translateY(-10px)
+  &__autor
+    text-align: center
+    position: relative
+
+  &__avatar
+    position: relative
+    height: 50px
+    &__img
+      background-color: $white
+      position: absolute
+      top: 0
+      left: 50%
+      transform: translateX(-50%)
+      width: 100px
+      border-radius: 50%
+      overflow: hidden
+      border: 5px solid $white
+      box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3)

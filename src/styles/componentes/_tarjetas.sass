@@ -20,6 +20,34 @@
   &--azul
     background-color: $color-sistema-e
 
+  &--fondo__slider
+    background-image: url('../assets/curso/temas/tema_5/img_18.png')
+    background-repeat: no-repeat
+    background-position: center
+    background-size: cover
+    padding: 10px 15px
+    .slyder-a__tipo-b .slyder-a__btn--sigt
+      background-color: $color-terciario
+      color: $white 
+    .slyder-a__tipo-b .slyder-a__btn--atrs
+      background-color: $color-terciario
+      color: $white !important
+    .slyder-a__bullets__item--active
+      background-color: $color-primario !important
+      border-color: $color-primario !important
+      opacity: 1
+    .slyder-a__bullets__item
+      background-color: lighten($color-primario, 15%)
+      border: 1px solid lighten($color-primario, 15%)
+
+  &--blanca-1
+    background-color: $white
+    border-radius: 20px
+    padding: 1.5rem 1rem
+    margin: 0.5rem 1rem 3rem 1rem 
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2) 
+    height: 95%;
+
   &--boton
     border-radius: 20px
     background-color: $color-sistema-h
@@ -52,6 +80,12 @@
     &:nth-child(even)
       background-color: $color-sistema-g
 
+  &--1
+    content: url('../assets/curso/temas/tema_3/img_4.svg')
+    margin:  auto 
+    width: 8rem
+
+
   &.color-primario
     background-color: $color-primario
     *
@@ -60,6 +94,14 @@
       background-color: lighten($color-primario, 50%)
       color: textColor(lighten($color-primario, 50%))
       border: solid 4px $color-primario
+  &.color-primario-10
+    background-color: $color-primario-10
+    *
+      color: textColor($color-primario-10)
+    &--borde
+      background-color: lighten($color-primario-10, 50%)
+      color: textColor(lighten($color-primario-10, 50%))
+      border: solid 4px $color-primario-10
   &.color-secundario
     background-color: $color-secundario
     *
@@ -68,6 +110,14 @@
       background-color: lighten($color-secundario, 50%)
       color: textColor(lighten($color-secundario, 50%))
       border: solid 4px $color-secundario
+  &.color-secundario-20
+    background-color: $color-secundario-20
+    *
+      color: textColor($color-secundario-20)
+    &--borde
+      background-color: lighten($color-secundario-20, 50%)
+      color: textColor(lighten($color-secundario-20, 50%))
+      border: solid 4px $color-secundario-20
   &.color-acento-contenido
     background-color: $color-acento-contenido
     *
@@ -295,3 +345,72 @@
       flex: 1
       display: flex
       justify-content: center
+// Tarjeta Causa - Componente adaptable
+.tarjeta-causa
+  border-radius: 50px
+  padding: 1.5rem
+  transition: all 0.3s ease
+  display: flex
+  align-items: start
+  gap: 1rem
+  
+  &:hover
+    transform: translateY(-3px)
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1)
+
+  // Variantes de color adaptables
+  &.color-primario
+    background-color: $color-primario-20
+    .icono-causa img
+      filter: brightness(0) saturate(100%) invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%)
+    
+  &.color-primario-10
+    background-color: $color-primario-10
+    
+  &.color-secundario
+    background-color: $color-secundario-20
+    
+  &.color-secundario-20
+    background-color: $color-secundario-20
+    
+  &.color-acento-contenido
+    background-color: lighten($color-acento-contenido, 45%)
+    
+  &.color-acento-botones
+    background-color: lighten($color-acento-botones, 45%)
+
+  // Sin clase de color = usa primario-20 por defecto
+  &:not([class*="color-"])
+    background-color: $color-primario-20
+
+.icono-causa
+  flex-shrink: 0
+  width: 50px
+  min-width: 50px
+  
+  img
+    width: 100%
+    height: auto
+    display: block
+
+.texto-causa
+  flex-grow: 1
+  
+  p, h5, h6
+    font-weight: 600
+    font-size: 0.95rem
+    line-height: 1.4
+    margin-bottom: 0
+
+@media (max-width: 768px)
+  .tarjeta-causa
+    padding: 1.25rem
+    gap: 0.75rem
+  
+  .icono-causa
+    width: 40px
+    min-width: 40px
+  
+  .texto-causa
+    p, h5, h6
+      font-size: 0.9rem

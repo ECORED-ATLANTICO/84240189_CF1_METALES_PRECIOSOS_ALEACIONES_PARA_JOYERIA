@@ -79,3 +79,215 @@
 
 figcaption
   font-weight: normal
+
+// --- CITA DECORADA --- //
+
+.cita-decorada
+  .cita-decorada__caja
+    background-size: 100% 100%
+    background-repeat: no-repeat
+
+    &--fondo-1
+      background-image: url('../assets/curso/introduccion/img_3.png')
+    &--fondo-2
+      background-color: $color-secundario-5
+    &--fondo-3
+      background-image: url('../assets/curso/temas/tema_2/img_8.png')
+    &--fondo-4
+      background-image: url('../assets/curso/temas/tema_5/img_2.png')
+    
+
+    [class*="cita-decorada__imagen-flotante"]
+      width: 100%
+      height: auto
+      
+    .cita-decorada__imagen-flotante-1
+      position: absolute
+      transform: translateY(-157.5px) translateX(-16px)
+      z-index: 3
+      max-width: 310.9px
+      margin: 0 auto
+      @media (max-width: 1025px)
+        transform: translateY(-120px) translateX(-16px)
+        max-width: 235px
+      
+    .cita-decorada__imagen-flotante-2
+      position: absolute
+      transform: translateY(-145px) translateX(-20px)
+      z-index: 3
+      max-width: 280px
+      margin: 0 auto
+      @media (max-width: 1025px)
+        transform: translateY(-30px) translateX(-25px)
+        max-width: 200px
+      
+    .cita-decorada__imagen-flotante-3
+      position: absolute
+      transform: translateY(-100px) translateX(0px)
+      z-index: 3
+      max-width: 220px
+      margin: 0 auto
+      @media (max-width: 1025px)
+        transform: translateY(-100px) translateX(-17px)
+        max-width: 200px
+      
+    .cita-decorada__imagen-flotante-4
+      position: absolute
+      transform: translateY(-120px) translateX(-60px)
+      z-index: 3
+      max-width: 390px
+      margin: 0 auto
+      @media (max-width: 1025px)
+        transform: translateY(-30px) translateX(-70px)
+        max-width: 300px
+
+
+///texto-resaltado
+.texto-resaltado
+  background-color: $white
+  padding: 0.3rem 2rem
+  border-radius: 0.375rem
+  display: inline-block
+  box-decoration-break: clone
+  -webkit-box-decoration-break: clone
+  &--color-primario
+    background-color: $color-primario
+  &--color-secundario
+    background-color: $color-secundario
+  &--color-acento-botones
+    background-color: $color-acento-botones
+  &--color-acento-contenido
+    background-color: $color-acento-contenido
+
+
+// Fondos 
+.bg_img
+  &_1
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: -65px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/temas/tema_1/img_2.png') !important
+      background-repeat: no-repeat
+      pointer-events: none
+  &_2
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: -175px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/temas/tema_2/img_4.png') !important
+      background-repeat: no-repeat
+      pointer-events: none
+  &_3
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: -25px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 115%
+      background-image: url('../assets/curso/temas/tema_2/img_6.png') !important
+      background-repeat: no-repeat
+      background-size: cover 
+      background-position: center
+      overflow: hidden 
+      pointer-events: none
+    .slyder-a__tipo-b .slyder-a__btn--sigt
+      background-color: $color-acento-botones
+    .slyder-a__tipo-b .slyder-a__btn--atrs
+      background-color: $color-acento-botones
+    .slyder-a__bullets__item--active
+      background-color: $color-acento-botones !important
+      border-color: $color-acento-botones !important
+      opacity: 1
+    .slyder-a__bullets__item
+      background-color: lighten($color-acento-botones, 15%)
+      border: 1px solid lighten($color-acento-botones, 15%)
+
+// factores-slider custom-slider
+.custom-slider
+  overflow: visible !important 
+  padding: 2rem !important  
+
+.slyder-f
+  overflow: visible !important
+.factores-slider, .custom-slider
+  &__icon 
+    max-height: 93px
+  .h-95
+    height: 95% !important
+  .slyder-f
+    align-items: center
+    justify-content: center
+    gap: 0
+  .slyder-f__btn
+    background-color:  $color-acento-botones !important
+    color: $white !important
+    height: 42px
+    width: 42px
+    min-width: 42px
+    border-radius: 50%
+    padding: 0 !important
+    transition: transform 0.3s
+    z-index: 100
+    
+    &:hover
+      transform: scale(1.1)
+    .fa-chevron-left, .fa-chevron-right
+      font-size: 1.5rem
+    &.ps-3
+      margin-left: 7px
+      @media (max-width: 1024px)
+        margin-left: 7px
+    &.pe-3
+      margin-right: 7px
+      @media (max-width: 1024px)
+        margin-right: 7px
+  &--fondo__slider-3
+    &__icon 
+      max-height: 93px
+    .h-95
+      height: 95% !important
+    .slyder-f
+      align-items: center
+      justify-content: center
+      gap: 0
+    .slyder-f__btn
+      background-color: $color-acento-botones !important
+      color: $white !important
+      height: 42px
+      width: 42px
+      min-width: 42px
+      border-radius: 50%
+      padding: 0 !important
+      transition: transform 0.3s
+      &:hover
+        transform: scale(1.1)
+      .fa-chevron-left, .fa-chevron-right
+        font-size: 1.5rem
+      &.ps-3
+        margin-left: 7px
+        @media (max-width: 1024px)
+          margin-left: 7px
+      &.pe-3
+        margin-right: 7px
+        @media (max-width: 1024px)
+          margin-right: 7px
