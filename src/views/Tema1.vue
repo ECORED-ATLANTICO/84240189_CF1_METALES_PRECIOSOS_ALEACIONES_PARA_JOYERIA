@@ -111,7 +111,6 @@
               td Resistencia a la corrosión.
               td Capacidad del metal para mantenerse estable ante humedad y agentes químicos.
               td Asegura brillo duradero, menor mantenimiento y vida útil prolongada de la joya.
-            
 
     Separador 
 
@@ -171,7 +170,7 @@
         p.mb-0 La simbología metalúrgica y química es esencial para interpretar composiciones, identificar elementos, comprender estándares de ley y realizar cálculos de aleaciones. En joyería, esta simbología permite reconocer metales, distinguir purezas, leer especificaciones técnicas y asegurar que las mezclas cumplan con los requerimientos del cliente y la normativa vigente. El dominio de estos símbolos facilita la comunicación técnica, evita errores en las formulaciones y contribuye a la trazabilidad de cada pieza o lingote producido.
     
     .row.justify-content-center.mb-5
-      .col-12.col-lg-10.position-relative
+      .col-12.col-lg-10.position-relative(data-aos="flip-left")
         .avatar
           figure
             img.img250(src="@/assets/curso/temas/tema_1/img_12.png", alt="avatar" class="img-fluid")
@@ -181,50 +180,64 @@
               figure
                 img.img100(src="@/assets/curso/temas/tema_1/img_11.svg", alt="Control químico" class="img-fluid")
             .col
-              h5 Consistencia  de datos
-              p.p-2 Estandarizan la captura de información (códigos, temperaturas, sellos, entre otros), reduciendo errores y manteniendo registros coherentes.
+              h5.p-2.mb-0 Símbolos químicos (Au, Ag, Cu, Pt, Pd)
+              p.p-2 Identifican cada metal en la tabla periódica y permiten interpretar recetas de aleación. Cuando aparece Au se entiende que se trabaja con oro; Ag indica plata; Cu indica cobre; Pt indica platino; Pd indica paladio. Estos símbolos permiten leer formulaciones como Au 750, Ag 125, Cu 125, donde se aprecia la proporción de cada metal dentro de la mezcla.
         .crd.crd--avatarHorizontal.py-4
           .row.align-items-center
             .col-auto.position-relative
               figure
                 img.img100(src="@/assets/curso/temas/tema_1/img_11.svg", alt="Control mecánico" class="img-fluid")
             .col
-              h5 Fiabilidad de la información
-              p.p-2 Garantizan precisión y confianza al registrar origen, transporte y destino de los productos.
+              h5.p-2.mb-0 Kilataje (K)
+              p.p-2 Indica cuántas partes de oro fino hay dentro de un total de 24. Cuando en una pieza aparece 18 K significa que está compuesta principalmente por oro y complementada con otros metales que le aportan dureza y color. El kilataje ayuda a diferenciar si se trata de un oro de mayor o menor pureza y permite reconocer su valor y su comportamiento en procesos de fundición o laminado.
         .crd.crd--avatarHorizontal.crd--middle.py-4
           .row.align-items-center
             .col-auto.position-relative
               figure
                 img.img100(src="@/assets/curso/temas/tema_1/img_11.svg", alt="Control manual" class="img-fluid")
             .col
-              h5 Reducción de errores y omisiones
-              p.p-2 Proveen instrucciones claras que minimizan fallas humanas en procesos críticos.
-        .crd.crd--avatarHorizontal.py-4
-          .row.align-items-center
-            .col-auto.position-relative
-              figure
-                img.img100(src="@/assets/curso/temas/tema_1/img_11.svg", alt="Control biológico" class="img-fluid")
-            .col
-              h5 Facilitación de la capacitación
-              p.p-2 Funcionan como guías de formación estandarizada, acelerando el aprendizaje y cumplimiento de procedimientos.
-        .crd.crd--avatarHorizontal.crd--middle.py-4
-          .row.align-items-center
-            .col-auto.position-relative
-              figure
-                img.img100(src="@/assets/curso/temas/tema_1/img_11.svg", alt="Control biocultural" class="img-fluid")
-            .col
-              h5 Base para auditoría y mejora continua
-              p.p-2 Sirven como referencia para auditorías y permiten revisar y optimizar procesos.
+              h5.p-2.mb-0 Milésimas (‰)
+              p.p-2 Expresan pureza sobre una escala de 0 a 1000. Cuando se observa 925 ‰ se entiende que la pieza contiene sobre todo plata fina con una pequeña proporción de otros metales para darle resistencia. Este sistema se usa mucho en plata y platino, y permite calcular con precisión las cantidades necesarias para formular una aleación confiable durante la fundición o el reciclaje de material.
         .crd.crd--avatarHorizontal.crd--last.py-4
           .row.align-items-center
             .col-auto.position-relative
               figure
                 img.img100(src="@/assets/curso/temas/tema_1/img_11.svg", alt="Control biológico" class="img-fluid")
             .col
-              h5 Cumplimiento normativo
-              p.p-2 Aseguran que las operaciones cumplan con regulaciones de trazabilidad mediante documentación y ejecución consistente.
+              h5.p-2.mb-0 Ley (750, 925, 950)
+              p.p-2 Indica la cantidad de metal puro presente en una aleación según normas formales. Cuando una joya lleva la marca 750 se reconoce que está compuesta mayormente por oro fino y el resto por otros metales; cuando aparece 950 se identifica un platino de alta pureza apropiado para joyería fina. Esta numeración permite verificar si la pieza cumple estándares para comercialización y certificación.
 
- 
+    .row.justify-content-center.align-items-center.mb-5
+      .col-6.col-lg-3.mb-lg-0.mb-3(data-aos="flip-left")
+        figure
+          img(src="@/assets/curso/temas/tema_1/img_13.png", class="img-fluid")
+      .col-12.col-lg-7(data-aos="zoom-in-right")
+        TabsA.mb-0.tarjeta-tabs-a.color-terciario
+          .tarjeta.color-secundario-10.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Marcajes o punzones")
+            .row.justify-content-center.align-items-center.mb-0
+              .col-12.col-lg-12.mb-0
+                p.mb-0 Son sellos pequeños grabados dentro de la joya o en el lingote que muestran su pureza, la identificación del fabricante o el taller que la produjo. En un anillo se puede encontrar, por ejemplo, un número de ley acompañado del símbolo del joyero, lo cual permite confirmar autenticidad, origen y calidad del metal utilizado.
+          .tarjeta.color-secundario-10.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Símbolo ∆ (calor)")
+            .row.justify-content-center.align-items-center.mb-0
+              .col-12.col-lg-12.mb-0
+                p.mb-0 Indica que en el proceso se requiere la aplicación de calor. Este símbolo aparece en reacciones o esquemas donde el metal debe transformarse, como cuando se funde una mezcla para formar una aleación específica. Su presencia orienta sobre el momento en que se debe elevar la temperatura para lograr la transformación adecuada.
+          .tarjeta.color-secundario-10.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Flecha → (transformación o resultado)")
+            .row.justify-content-center.align-items-center.mb-0
+              .col-12.col-lg-12.mb-0
+                p.mb-0 Muestra el paso de un estado o material a otro. Al observar la flecha en un diagrama se comprende que un metal sólido pasa a estado fundido o que dos metales se combinan para formar una nueva aleación. Este símbolo facilita la lectura de secuencias de operación y el entendimiento del proceso metalúrgico.
+          .tarjeta.color-secundario-10.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Símbolos de riesgo químico")
+            .row.justify-content-center.align-items-center.mb-0
+              .col-12.col-lg-12.mb-0
+                p.mb-0 Son representaciones gráficas que advierten peligros asociados a sustancias usadas en afinación, limpieza y procesos de preparación del metal. Estos símbolos permiten reconocer si un producto puede causar corrosión en la piel, si es inflamable o si genera vapores tóxicos, ayudando a manipular fundentes, ácidos y soluciones de limpieza de forma segura.
+
+    .cita-decorada(data-aos="zoom-in-right")
+      blockquote.cita-decorada__caja.cita-decorada__caja--fondo-3.p-5
+        .row.justify-content-center.align-items-center
+          .col-10.col-lg-8 
+            p.cita-decorada__texto.mb-2.p-3 <B>A continuación, se ejemplifica cómo se usan los símbolos en el trabajo real con metales.</B> Cuando se prepara una aleación, por ejemplo, de oro 18 K, normalmente aparece escrita como Au 750 / Ag 125 / Cu 125, lo que simplemente indica cuánto oro, plata y cobre se mezclan. En los pasos del proceso se puede ver algo como Au + Cu ∆ → Aleación, donde ∆ solo significa que hay que aplicar calor, y la flecha → muestra el resultado de la mezcla. En la joya terminada suele grabarse 750 para indicar su pureza, junto con el sello del taller. Además, durante la limpieza del metal se usan productos que llevan símbolos de corrosivo o tóxico, los cuales sirven para saber que se deben manipular con cuidado.
+          .col-8.col-lg-4.d-none.d-lg-block
+            figure
+              img(src='@/assets/curso/temas/tema_1/img_15.png', class="cita-decorada__imagen-flotante-2")
 </template>
 
 <script>

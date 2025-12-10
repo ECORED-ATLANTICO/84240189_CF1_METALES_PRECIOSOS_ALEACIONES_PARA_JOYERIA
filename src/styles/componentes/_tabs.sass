@@ -57,6 +57,17 @@
         color: textColor($color-secundario)
         &:before
           background-color: $color-secundario
+  &.color-terciario
+    .tabs-a__tab
+      background-color: $color-acento-contenido-10
+      &:hover, &:active, &:focus
+        background-color: $color-terciario
+        color: textColor($color-terciario)
+      &__selected
+        background-color: $color-terciario
+        color: textColor($color-terciario)
+        &:before
+          background-color: $color-terciario
   &.color-acento-contenido
     .tabs-a__tab
       &:hover, &:active, &:focus

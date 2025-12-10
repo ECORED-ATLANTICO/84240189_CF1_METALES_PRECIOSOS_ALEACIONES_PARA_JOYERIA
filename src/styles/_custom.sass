@@ -92,9 +92,9 @@ figcaption
     &--fondo-2
       background-color: $color-secundario-5
     &--fondo-3
-      background-image: url('../assets/curso/temas/tema_2/img_8.png')
+      background-image: url('../assets/curso/temas/tema_1/img_14.png')
     &--fondo-4
-      background-image: url('../assets/curso/temas/tema_5/img_2.png')
+      background-image: url('../assets/curso/temas/tema_2/img_3.png')
     
 
     [class*="cita-decorada__imagen-flotante"]
@@ -113,32 +113,32 @@ figcaption
       
     .cita-decorada__imagen-flotante-2
       position: absolute
-      transform: translateY(-145px) translateX(-20px)
+      transform: translateY(-180px) translateX(-45px)
       z-index: 3
-      max-width: 280px
+      max-width: 460px
       margin: 0 auto
       @media (max-width: 1025px)
-        transform: translateY(-30px) translateX(-25px)
-        max-width: 200px
+        transform: translateY(-130px) translateX(-60px)
+        max-width: 345px
       
     .cita-decorada__imagen-flotante-3
       position: absolute
-      transform: translateY(-100px) translateX(0px)
+      transform: translateY(-179px) translateX(5px)
       z-index: 3
-      max-width: 220px
+      max-width: 360px
       margin: 0 auto
       @media (max-width: 1025px)
-        transform: translateY(-100px) translateX(-17px)
-        max-width: 200px
+        transform: translateY(-120px) translateX(15px)
+        max-width: 300px
       
     .cita-decorada__imagen-flotante-4
       position: absolute
-      transform: translateY(-120px) translateX(-60px)
+      transform: translateY(-125px) translateX(-15px)
       z-index: 3
-      max-width: 390px
+      max-width: 400px
       margin: 0 auto
       @media (max-width: 1025px)
-        transform: translateY(-30px) translateX(-70px)
+        transform: translateY(-85px) translateX(-15px)
         max-width: 300px
 
 
@@ -185,7 +185,7 @@ figcaption
       content: ''
       position: absolute
       margin: 0
-      top: -175px
+      top: 75px
       left: -48px
       width: calc(100% + 96px)
       height: 100%
@@ -251,6 +251,37 @@ figcaption
       background-image: url('../assets/curso/temas/tema_3/img_20.png') !important
       background-repeat: no-repeat
       pointer-events: none
+  &_6
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: -65px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/temas/tema_4/img_6.png') !important
+      background-repeat: no-repeat
+      pointer-events: none
+  &_7
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: -65px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/temas/tema_5/img_11.png') !important
+      background-repeat: no-repeat
+      pointer-events: none
+
 
 // factores-slider custom-slider
 .custom-slider
@@ -415,7 +446,7 @@ figcaption
 
 .crd--avatarHorizontal
   position: relative
-  padding-right: 25rem
+  padding-right: 13rem
   min-width: 260px
   & > *
     position: relative
@@ -445,7 +476,7 @@ figcaption
     &::before
       right: 2vw
     .col-auto figure img
-      left: -2rem
+      left: -1rem
   @media (max-width: 1440px)
     .col-auto figure img
       left: -0.3rem
@@ -488,9 +519,9 @@ figcaption
   right: -8rem
   z-index: 1
   img
-    width: clamp(230px, 9vw, 590px)
+    width: clamp(200px, 8vw, 500px)
     height: auto
-    transform: translateY(35px) translateX(-10px)
+    transform: translateY(-30px) translateX(-100px)
   @media (max-width: 1024px)
     display: none
 
@@ -513,3 +544,54 @@ figcaption
 .tabs-a__content-item
   background-color: $color-terciario-10
   border-radius: 10px
+
+
+// TabsA 
+.tabs-a.mb-0.tarjeta-tabs-a.color-terciario
+  .row
+    align-items: stretch !important
+    justify-content: center !important
+    .col-lg-4.col-xl-3
+      flex: 0 0 100% !important
+      max-width: 100% !important
+      display: flex
+      flex-direction: column
+
+      @media (min-width: 1200px)
+        flex: 0 0 47% !important
+        max-width: 47% !important
+      
+      @media (max-width: 991px)
+        flex: 0 0 100% !important
+        max-width: 100% !important
+    .col-lg-8.col-xl-9
+      flex: 0 0 100% !important
+      max-width: 100% !important
+      display: flex !important
+      
+      @media (min-width: 1200px)
+        flex: 0 0 53% !important
+        max-width: 53% !important
+        
+      @media (max-width: 991px)
+        flex: 0 0 100% !important
+        max-width: 100% !important
+
+.tabs-a.mb-5.tarjeta-tabs-a.color-primario-10 .col-sm-6.col-lg-12.mb-3
+  .tabs-a__tab
+    padding: 18px 22px !important
+    font-size: 0.95rem !important
+    min-height: 60px !important
+    flex-grow: 1
+
+.tabs-a .tarjeta-tabs-a__tarjeta
+  flex-grow: 1 !important
+  width: 100%
+  display: flex !important
+  align-items: center !important
+  justify-content: center !important
+
+
+//acordion__activo
+.acordion__activo
+  background-color: $color-primario-10
