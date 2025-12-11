@@ -154,11 +154,10 @@ figcaption
     background-color: $color-primario
   &--color-secundario
     background-color: $color-secundario
-  &--color-acento-botones
-    background-color: $color-acento-botones
   &--color-acento-contenido
     background-color: $color-acento-contenido
-
+  &--color-acento-botones
+    background-color: $color-acento-botones
 
 // Fondos 
 .bg_img
@@ -364,45 +363,73 @@ figcaption
   color: $color-sistema-a
   background-color: $color-terciario-10
 
-
 ///////// Card hover --------------------------------------
 .crd_hover_txt
   position: relative  
   padding: 0 !important
-  overflow: hidden !important 
-  &:hover    
-    .crd_hover_txt--body   
-      background-color: $color-terciario-20
-      color: $color-sistema-texto
-      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
-      transform: translateY(0)
-    h4
-      color: $color-sistema-texto !important
+  overflow: hidden !important
+  
+  .crd_hover_txt--img
+    overflow: hidden
+    display: block
+    figure
+      margin: 0
+      line-height: 0
+      img
+        display: block
+        width: 100%
 
   .crd_hover_txt--body
     position: absolute
     padding: 1.2rem 0.5rem 1.5rem 0.5rem
     bottom: 0    
+    width: 100%
     transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
-    transform: translateY(calc( 100% - 3.85rem ))
+    transform: translateY(calc(100% - 3.85rem))
     background-color: $white
-    &.color-acento-botones
-      background-color: $color-acento-botones
-      &:hover
-        background-color: $color-primario-20
-    &.color-terciario-20
-      background-color: $color-terciario-20
-      &:hover
-        background-color: $color-terciario
+    border-bottom-left-radius: 23px
+    border-bottom-right-radius: 23px
+    
     h4
       color: $color-sistema-texto
       font-style: italic
+    
+    &.color-acento-contenido
+      background-color: rgba($color-acento-contenido, 0.7)
+      h5, p
+        color: $white !important
+      
+    &.color-acento-botones
+      background-color: $color-acento-botones
+      
+    &.color-terciario-20
+      background-color: $color-terciario-20
+  
+  &:hover
+    .crd_hover_txt--body
+      background-color: $color-terciario-20
+      color: $color-sistema-texto
+      transform: translateY(0)
+      border-radius: 23px
+      
+      h4
+        color: $color-sistema-texto !important
+      
+      &.color-acento-contenido
+        background-color: rgba($color-secundario-20, 0.75)
+        h5, p
+          color: $black !important
+      
+      &.color-acento-botones
+        background-color: $color-primario-20
+      
+      &.color-terciario-20
+        background-color: $color-terciario
 
   @media (min-width:1200px) and (max-width:1400px)  
     .crd_hover_txt--body
       p
         font-size: 0.85em
-
 //// Tarjetas --------------------------------------
 .img90
   width: 90px

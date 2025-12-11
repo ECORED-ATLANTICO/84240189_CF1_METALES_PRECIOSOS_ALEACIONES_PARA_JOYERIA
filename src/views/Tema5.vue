@@ -31,27 +31,62 @@
       .col-12.col-lg-7
         .custom-slider.p-3.p-sm-3(data-aos="zoom-in-right")
           SlyderF(columnas="col-12 col-sm-12 col-md-12 col-lg-6")
-            .tarjeta--blanca-1.h-95
+            .tarjeta--color-primario-10.h-95
               .row.justify-content-center.align-items-center.mb-0
                 .col-12.mb-3
-                  .tarjeta--1
-                h5.mb-3.text-center.text-white
-                  span.texto-resaltado.texto-resaltado--color-acento-contenido.rounded-0 Fundentes 
-                p.mb-3.text-center Sustancias como bórax, carbonato de sodio y fluoroboratos que bajan el punto de fusión, evitan la oxidación y mejoran la fluidez del metal durante la fundición.
-            .tarjeta--blanca-1.h-95
+                  .tarjeta--9
+                h5.mb-3.text-center
+                  span.texto-resaltado.texto-resaltado--color-acento-botones.rounded-0 Anillos 
+                p.mb-3.text-center Piezas circulares que se ajustan al dedo. Pueden ser lisos, con engastes o con diseño calado.
+            .tarjeta--color-primario-10.h-95
               .row.justify-content-center.align-items-center.mb-0
                 .col-12.mb-3
-                  .tarjeta--2
-                h5.mb-3.text-center.text-white
-                  span.texto-resaltado.texto-resaltado--color-acento-contenido.rounded-0 Sales y ácidos de limpieza
-                p.mb-3.text-center Incluyen ácido sulfúrico diluido, ácido nítrico y soluciones decapantes. Se usan para eliminar óxidos y residuos superficiales después de la fundición o soldadura.
-            .tarjeta--blanca-1.h-95
+                  .tarjeta--10
+                h5.mb-3.text-center
+                  span.texto-resaltado.texto-resaltado--color-acento-botones.rounded-0 Aretes
+                p.mb-3.text-center Piezas que se colocan en las orejas, como topos, argollas o colgantes. Suelen requerir sistemas de cierre.
+            .tarjeta--color-primario-10.h-95
               .row.justify-content-center.align-items-center.mb-0
                 .col-12.mb-3
-                  .tarjeta--3
-                h5.mb-3.text-center.text-white
-                  span.texto-resaltado.texto-resaltado--color-acento-contenido.rounded-0 Combustibles y gases
-                p.mb-3.text-center Gas propano, oxígeno y acetileno, necesarios para generar el calor en procesos como soldadura, recocido y fundición.
+                  .tarjeta--11
+                h5.mb-3.text-center
+                  span.texto-resaltado.texto-resaltado--color-acento-botones.rounded-0 Cadenas y collares
+                p.mb-3.text-center Formados por eslabones o mallas; pueden sostener dijes o estar decorados por sí mismos.
+            .tarjeta--color-primario-10.h-95
+              .row.justify-content-center.align-items-center.mb-0
+                .col-12.mb-3
+                  .tarjeta--12
+                h5.mb-3.text-center
+                  span.texto-resaltado.texto-resaltado--color-acento-botones.rounded-0 Pulseras
+                p.mb-3.text-center Similar a las cadenas, pero diseñadas para la muñeca. Incluyen rígidas, articuladas o de eslabones.
+            .tarjeta--color-primario-10.h-95
+              .row.justify-content-center.align-items-center.mb-0
+                .col-12.mb-3
+                  .tarjeta--13
+                h5.mb-3.text-center
+                  span.texto-resaltado.texto-resaltado--color-acento-botones.rounded-0 Dijes y colgantes
+                p.mb-3.text-center Elementos decorativos que cuelgan de cadenas o pulseras, con formas variadas.
+            .tarjeta--color-primario-10.h-95
+              .row.justify-content-center.align-items-center.mb-0
+                .col-12.mb-3
+                  .tarjeta--14
+                h5.mb-3.text-center
+                  span.texto-resaltado.texto-resaltado--color-acento-botones.rounded-0 Broches y pasadores
+                p.mb-3.text-center Piezas con mecanismos que permiten unir o sujetar prendas.
+            .tarjeta--color-primario-10.h-95
+              .row.justify-content-center.align-items-center.mb-0
+                .col-12.mb-3
+                  .tarjeta--15
+                h5.mb-3.text-center
+                  span.texto-resaltado.texto-resaltado--color-acento-botones.rounded-0 Monturas y engastes
+                p.mb-3.text-center Estructuras diseñadas para sostener gemas o circonias.
+            .tarjeta--color-primario-10.h-95
+              .row.justify-content-center.align-items-center.mb-0
+                .col-12.mb-3
+                  .tarjeta--16
+                h5.mb-3.text-center
+                  span.texto-resaltado.texto-resaltado--color-acento-botones.rounded-0 Componentes complementarios
+                p.mb-3.text-center Aros, argollas, tapas, seguros, pasadores, bases, entre otros que completan una pieza.
 
     Separador 
 
@@ -67,59 +102,14 @@
       .row.justify-content-center.align-items-center.mb-5
         .col-12.col-lg-7.order-2.order-lg-1.mb-0
           AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--color-sistema-h")
-            div(titulo="Revestimientos refractarios (yeso, fosfatados, entre otros)")
-              ul.lista-ul
-                li.mb-0
-                  i.lista-ul__vineta
-                  |  Soportan altas temperaturas sin deformarse.
-                li.mb-0
-                  i.lista-ul__vineta
-                  |   Permiten captar los detalles del modelo en cera.
-                li.mb-0
-                  i.lista-ul__vineta
-                  |  Determinan el acabado final de la pieza (textura o porosidad).
-                li.mb-0
-                  i.lista-ul__vineta
-                  |  Los fosfatados resisten temperaturas más altas para platino y paladio.
-            div(titulo="Ceras para modelado")
-              ul.lista-ul
-                li.mb-0
-                  i.lista-ul__vineta
-                  |  Fácil manipulación y tallado.
-                li.mb-0
-                  i.lista-ul__vineta
-                  |  Punto de fusión bajo para evitar defectos al quemarse.
-                li.mb-0
-                  i.lista-ul__vineta
-                  |  Estabilidad dimensional al ser moldeadas.
-                li.mb-0
-                  i.lista-ul__vineta
-                  |  No deben dejar residuos durante la etapa de quemado.
-            div(titulo="Vasos de colada, canales y bebederos")
-              ul.lista-ul
-                li.mb-0
-                  i.lista-ul__vineta
-                  |  Resistencia térmica.
-                li.mb-0
-                  i.lista-ul__vineta
-                  |  Buena adherencia al revestimiento.
-                li.mb-0
-                  i.lista-ul__vineta
-                  |  Permiten flujo controlado del metal para evitar turbulencias.
-                li.mb-0
-                  i.lista-ul__vineta
-                  |  Su diseño y diámetro influyen en la calidad del llenado.
-            div(titulo="Insumos auxiliares (gases, combustibles, entre otros)")
-              ul.lista-ul
-                li.mb-0
-                  i.lista-ul__vineta
-                  |  Mezcla de gases estable y compatible con el equipo de fundición.
-                li.mb-0
-                  i.lista-ul__vineta
-                  |  Llama regulable para trabajar metales con distintos puntos de fusión.
-                li.mb-0
-                  i.lista-ul__vineta
-                  |  Gas adecuado según técnica: propano/oxígeno para oro y plata; equipos especiales para platino.
+            div(titulo="Precisión  dimensional")
+              p.mb-0 La pieza debe cumplir medidas exactas para su ensamble y comodidad del usuario.
+            div(titulo="Acabado superficial")
+              p.mb-0 Debe presentar brillo, textura homogénea y ausencia de arañazos o porosidad.
+            div(titulo="Dureza adecuada")
+              p.mb-0 Depende del uso: un anillo requiere mayor resistencia que un dije.
+            div(titulo="Simetría y proporción")
+              p.mb-0 Garantizan equilibrio visual y calidad artesanal.
         .col-8.col-lg-3.order-1.order-lg-2.mb-lg-0.mb-3
           figure
             img(src="@/assets/curso/temas/tema_5/img_12.png", class="img-fluid")
@@ -130,39 +120,33 @@
             .crd_hover_txt--img
               figure
                 img(src="@/assets/curso/temas/tema_5/img_13.png", class="img-fluid")
-            .crd_hover_txt--body.color-acento-botones.p-4
-              h5.mb-4.text-center Metales preciosos
-              p.mb-2.text-center  Oro, plata y platino, reconocidos por su estabilidad química, resistencia a la corrosión y alto valor comercial.
-
+            .crd_hover_txt--body.color-acento-contenido.p-4
+              h5.mb-4.text-center Compatibilidad con gemas
+              p.mb-2.text-center  Las monturas deben ajustarse correctamente a las piedras.
         .col-12.col-md-6.col-xl-3.mb-4
           .crd_hover_txt.rounded-3(data-aos="flip-left")
             .crd_hover_txt--img
               figure
                 img(src="@/assets/curso/temas/tema_5/img_14.png", class="img-fluid")
-            .crd_hover_txt--body.color-acento-botones.p4
-              h5.mb-4.text-center Metales no preciosos
-              p.mb-2.text-center Cobre, níquel, zinc, paladio, entre otros, utilizados como agentes de endurecimiento, modificación del color o reducción de costos.
-              p.mb-2.text-center La clasificación también puede basarse en su estructura cristalina, comportamiento mecánico o función dentro de una aleación, lo que permite elegir el metal adecuado según el color, dureza y propiedades finales deseadas.
-
+            .crd_hover_txt--body.color-acento-contenido.p4
+              h5.mb-4.text-center Soldaduras limpias
+              p.mb-2.text-center No deben ser visibles o débiles; deben tener continuidad superficial.
         .col-12.col-md-6.col-xl-3.mb-4
           .crd_hover_txt.rounded-3(data-aos="flip-left")
             .crd_hover_txt--img
               figure
                 img(src="@/assets/curso/temas/tema_5/img_15.png", class="img-fluid")
-            .crd_hover_txt--body.color-acento-botones.p4
-              h5.mb-4.text-center Metales no preciosos
-              p.mb-2.text-center Cobre, níquel, zinc, paladio, entre otros, utilizados como agentes de endurecimiento, modificación del color o reducción de costos.
-              p.mb-2.text-center La clasificación también puede basarse en su estructura cristalina, comportamiento mecánico o función dentro de una aleación, lo que permite elegir el metal adecuado según el color, dureza y propiedades finales deseadas.
-        
+            .crd_hover_txt--body.color-acento-contenido.p4
+              h5.mb-4.text-center Peso equilibrado
+              p.mb-2.text-center Afecta comodidad, ergonomía y percepción de calidad.
         .col-12.col-md-6.col-xl-3.mb-4
           .crd_hover_txt.rounded-3(data-aos="flip-left")
             .crd_hover_txt--img
               figure
                 img(src="@/assets/curso/temas/tema_5/img_16.png", class="img-fluid")
-            .crd_hover_txt--body.color-acento-botones.p4
-              h5.mb-4.text-center Metales no preciosos
-              p.mb-2.text-center Cobre, níquel, zinc, paladio, entre otros, utilizados como agentes de endurecimiento, modificación del color o reducción de costos.
-              p.mb-2.text-center 
+            .crd_hover_txt--body.color-acento-contenido.p4
+              h5.mb-4.text-center Seguridad del mecanismo
+              p.mb-2.text-center Cierres, broches y seguros deben funcionar correctamente sin riesgo de pérdida.
 
     Separador 
 
@@ -173,25 +157,37 @@
         .mb-0
         p.mb-0 Las técnicas de elaboración permiten transformar el metal en piezas acabadas mediante procesos mecánicos, térmicos y artesanales. Elegir la técnica correcta garantiza precisión, calidad y optimización del material.
 
-      .row.justify-content-center.align-items-center.mb-5
-        .col-12.col-lg-4.mb-3(data-aos="zoom-in-right")
-          figure
-            img(src="@/assets/curso/temas/tema_5/img_17.png", class="img-fluid")
-        .col-12.col-lg-6.mb-3(data-aos="zoom-in-right")
-          .custom-slider.tarjeta--fondo__slider.p-2.mb-5.rounded-3
-            SlyderF().tarjeta.tarjeta--blanca.p-3.rounded-3
-              .row.justify-content-center.align-items-center
-                .col-12.col-lg-10.mb-0
-                  h5.mb-3 Corporativos
-                  p.mb-0 Metas amplias y de largo plazo alineadas con la misión y visión, que orientan la dirección estratégica general de la organización.
-              .row.justify-content-center.align-items-center
-                .col-12.col-lg-10.mb-0
-                  h5.mb-3 Funcionales
-                  p.mb-0 Objetivos definidos para áreas específicas, como mercadeo o finanzas, que guían el desempeño y mejoramiento de cada unidad.
-              .row.justify-content-center.align-items-center
-                .col-12.col-lg-10.mb-0
-                  h5.mb-3 Operativos
-                  p.mb-0 Propósitos de corto plazo relacionados con tareas concretas y acciones puntuales que facilitan la ejecución operativa diaria.
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-lg-4.mb-3(data-aos="zoom-in-right")
+        figure
+          img(src="@/assets/curso/temas/tema_5/img_17.png", class="img-fluid")
+      .col-12.col-lg-6.mb-3(data-aos="zoom-in-right")
+        .custom-slider.tarjeta--fondo__slider.p-5.mb-0.rounded-3
+          SlyderF().tarjeta.tarjeta--blanca.p-5.rounded-3
+            .row.justify-content-center.align-items-center
+              .col-12.col-lg-10.mb-0
+                h5.mb-3 Fundición  por cera perdida
+                p.mb-0 Reproduce piezas complejas o con volumen; ideal para anillos, dijes y monturas.
+            .row.justify-content-center.align-items-center
+              .col-12.col-lg-10.mb-0
+                h5.mb-3 Laminado y trefilado
+                p.mb-0 Produce láminas, hilos y perfiles para cadenas, aros y estructuras.
+            .row.justify-content-center.align-items-center
+              .col-12.col-lg-10.mb-0
+                h5.mb-3 Soldadura
+                p.mb-0 Une componentes metálicos mediante calor y material de aporte.
+            .row.justify-content-center.align-items-center
+              .col-12.col-lg-10.mb-0
+                h5.mb-3 Engaste
+                p.mb-0 Fija gemas aplicando presión controlada del metal.
+            .row.justify-content-center.align-items-center
+              .col-12.col-lg-10.mb-0
+                h5.mb-3 Calado y cincelado
+                p.mb-0 Permite crear diseños abiertos, relieves y texturas decorativas.
+            .row.justify-content-center.align-items-center
+              .col-12.col-lg-10.mb-0
+                h5.mb-3 Pulido y abrillantado
+                p.mb-0 Aporta brillo y uniformidad a la superficie final.
         
 </template>
 
