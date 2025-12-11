@@ -139,6 +139,26 @@ figcaption
       margin: 0 auto
       @media (max-width: 1025px)
         transform: translateY(-85px) translateX(-15px)
+        max-width: 300px  
+
+    .cita-decorada__imagen-flotante-5
+      position: absolute
+      transform: translateY(-96px) translateX(-23px)
+      z-index: 3
+      max-width: 224px
+      margin: 0 auto
+      @media (max-width: 1025px)
+        transform: translateY(-80px) translateX(-24px)
+        max-width: 200px
+      
+    .cita-decorada__imagen-flotante-6
+      position: absolute
+      transform: translateY(-97px) translateX(10px)
+      z-index: 3
+      max-width: 260px
+      margin: 0 auto
+      @media (max-width: 1025px)
+        transform: translateY(-77px) translateX(-14px)
         max-width: 300px
 
 
@@ -622,3 +642,11 @@ figcaption
 //acordion__activo
 .acordion__activo
   background-color: $color-primario-10
+
+
+//linea-tiempo-d__item--selected 
+.linea-tiempo-d
+  &.color-primario-10
+    .linea-tiempo-d__item--selected .linea-tiempo-d__item__content
+      background-color: $color-primario-10
+      color: textColor($color-primario-10)

@@ -26,12 +26,10 @@
     Separador 
 
     .row.justify-content-center.align-items-center.mb-0
-      .col-12.col-lg-12  
+      .col-12.col-lg-10
         #t_7_3.titulo-segundo.color-acento-contenido
           .h2(data-aos="fade-right") 7.3 Volumen
         .mb-0
-
-
  
 </template>
 
