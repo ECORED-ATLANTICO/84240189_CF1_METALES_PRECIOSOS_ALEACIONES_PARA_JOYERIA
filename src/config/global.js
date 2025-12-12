@@ -245,16 +245,77 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: '',
+      tema: 'Metales',
+      referencia:
+        'Artesanías de Colombia. (2013). <em>Referencial nacional de joyería. Artesanías de Colombia.</em>',
+      tipo: 'PDF',
+      link:
+        'https://repositorio.artesaniasdecolombia.com.co/bitstream/001/2786/1/INST-D%202013.%20190.pdf',
+    },
+    {
+      tema: 'Piezas para joyería',
+      referencia:
+        'Química en Casa. (2025). <em>Metales usados en joyería: ciencia, belleza y aleaciones.</em>',
+      tipo: 'Articulo',
+      link:
+        'https://quimicaencasa.com/metales-usados-en-joyeria-ciencia-belleza-y-aleaciones/',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Aleación',
+      significado:
+        'Mezcla homogénea de dos o más metales que se combinan para modificar propiedades como dureza, color o punto de fusión, fundamental para obtener materiales adecuados para joyería.',
+    },
+    {
+      termino: 'Calado',
+      significado:
+        'Técnica manual que consiste en retirar partes de una lámina metálica con una segueta fina para crear diseños abiertos o decorativos en piezas de joyería.',
+    },
+    {
+      termino: 'Engaste',
+      significado:
+        'Método de fijación de gemas utilizando la presión del metal, permitiendo asegurar piedras en diferentes tipos de monturas.',
+    },
+    {
+      termino: 'Fundente',
+      significado:
+        'Sustancia utilizada en fundición o soldadura para limpiar, proteger y facilitar la fluidez del metal fundido, mejorando la calidad del vaciado.',
+    },
+    {
+      termino: 'Kilate (K)',
+      significado:
+        'Unidad que expresa la pureza del oro, donde 24K corresponde a oro puro; se convierte a milésimas para cálculos de ley en aleaciones.',
+    },
+    {
+      termino: 'Laminado',
+      significado:
+        'Proceso mecánico que reduce el espesor de un metal al pasarlo entre rodillos, obteniendo láminas utilizadas para fabricar piezas planas o estructurales.',
+    },
+    {
+      termino: 'Ley (milésimas)',
+      significado:
+        'Sistema de medición de pureza metálica expresado en mil partes por mil; por ejemplo, 750 corresponde al 75 % de oro fino en una aleación.',
+    },
+    {
+      termino: 'Merma',
+      significado:
+        'Pérdida inevitable de material durante procesos como fundición, corte o pulido; se calcula en porcentaje para controlar el rendimiento del metal.',
+    },
+    {
+      termino: 'Porcentaje de aleación',
+      significado:
+        'Cálculo que determina la cantidad proporcional de cada metal que debe mezclarse para obtener una composición específica según color, dureza o ley requerida.',
+    },
+    {
+      termino: 'Regla de tres',
+      significado:
+        'Método matemático utilizado para ajustar proporciones cuando cambia el peso total de una pieza o para escalar recetas de aleaciones manteniendo relaciones directas.',
+    },
+    {
+      termino: 'Trefilado',
+      significado:
+        'Proceso que reduce el diámetro de un metal al pasarlo por una serie de orificios calibrados, permitiendo obtener hilos para cadenas, aros y estructuras finas.',
     },
   ],
   referencias: [
