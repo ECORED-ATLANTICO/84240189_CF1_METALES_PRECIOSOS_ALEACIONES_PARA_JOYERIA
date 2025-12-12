@@ -223,7 +223,7 @@
       .col-12.col-lg-10(data-aos="zoom-in-right")
         p.mb-0 El cálculo de insumos para una aleación requiere aplicar fórmulas básicas que permiten determinar la pureza, el metal fino, las ligas y el fundente necesario. Estas operaciones facilitan la preparación exacta del material según la ley solicitada y garantizan que la aleación cumpla con las características mecánicas y de color requeridas para la pieza final.
 
-    .titulo-sexto.color-tabla.mb-5(data-aos="fade-right")
+    .titulo-sexto.color-tabla.mb-3(data-aos="fade-right")
       h5 Tabla 2. 
       |  Fórmulas para cálculo de aleaciones
     .tabla-a.mb-5(data-aos="flip-left")

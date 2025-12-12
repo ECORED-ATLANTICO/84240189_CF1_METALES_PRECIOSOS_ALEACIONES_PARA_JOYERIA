@@ -189,7 +189,7 @@ figcaption
       content: ''
       position: absolute
       margin: 0
-      top: -65px
+      top: -210px
       left: -48px
       width: calc(100% + 96px)
       height: 100%
@@ -248,7 +248,7 @@ figcaption
       content: ''
       position: absolute
       margin: 0
-      top: -65px
+      top: 15px
       left: -48px
       width: calc(100% + 96px)
       height: 100%
@@ -263,7 +263,7 @@ figcaption
       content: ''
       position: absolute
       margin: 0
-      top: -65px
+      top: 255px
       left: -48px
       width: calc(100% + 96px)
       height: 100%
@@ -278,7 +278,7 @@ figcaption
       content: ''
       position: absolute
       margin: 0
-      top: -65px
+      top: -230px
       left: -48px
       width: calc(100% + 96px)
       height: 100%
@@ -293,11 +293,56 @@ figcaption
       content: ''
       position: absolute
       margin: 0
-      top: -65px
+      top: -200px
       left: -48px
       width: calc(100% + 96px)
       height: 100%
       background-image: url('../assets/curso/temas/tema_5/img_11.png') !important
+      background-repeat: no-repeat
+      pointer-events: none
+  &_8
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: -220px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/temas/tema_6/img_2.png') !important
+      background-repeat: no-repeat
+      pointer-events: none
+  &_9
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: -60px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/temas/tema_7/img_2.png') !important
+      background-repeat: no-repeat
+      pointer-events: none
+  &_10
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: 25px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/temas/tema_8/img_2.png') !important
       background-repeat: no-repeat
       pointer-events: none
 
@@ -619,6 +664,36 @@ figcaption
       @media (min-width: 1200px)
         flex: 0 0 53% !important
         max-width: 53% !important
+        
+      @media (max-width: 991px)
+        flex: 0 0 100% !important
+        max-width: 100% !important
+
+.tabs-a.mb-0.tarjeta-tabs-a.color-terciario.custom-2
+  .row
+    align-items: center !important
+    justify-content: center !important
+    .col-lg-4.col-xl-3
+      flex: 0 0 100% !important
+      max-width: 100% !important
+      display: flex
+      flex-direction: column
+
+      @media (min-width: 1200px)
+        flex: 0 0 30% !important
+        max-width: 30% !important
+      
+      @media (max-width: 991px)
+        flex: 0 0 100% !important
+        max-width: 100% !important
+    .col-lg-8.col-xl-9
+      flex: 0 0 100% !important
+      max-width: 100% !important
+      display: flex !important
+      
+      @media (min-width: 1200px)
+        flex: 0 0 60% !important
+        max-width: 60% !important
         
       @media (max-width: 991px)
         flex: 0 0 100% !important

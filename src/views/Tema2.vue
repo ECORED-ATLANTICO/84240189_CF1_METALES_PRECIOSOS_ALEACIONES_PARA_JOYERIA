@@ -18,7 +18,7 @@
         .mb-0
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-6.col-lg-3.mb-lg-0.mb-3(data-aos="zoom-in-right")
+      .col-6.col-lg-3.mb-lg-0.mb-3(data-aos="flip-left")
         figure
           img(src="@/assets/curso/temas/tema_2/img_1.png", class="img-fluid")
       .col-12.col-lg-8(data-aos="zoom-in-right")
@@ -140,7 +140,6 @@
           .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
             figure
               img(src='@/assets/curso/temas/tema_2/img_12.png', class="img-fluid")
-        
 </template>
 
 <script>

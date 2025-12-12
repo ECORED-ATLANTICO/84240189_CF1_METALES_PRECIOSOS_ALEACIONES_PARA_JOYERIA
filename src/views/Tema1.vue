@@ -25,6 +25,7 @@
           #t_1_1.titulo-segundo.color-acento-contenido
             .h2(data-aos="fade-right") 1.1 Concepto y clases
           .mb-0
+
           p.mb-3(data-aos="fade-right") Los metales son elementos químicos caracterizados por su brillo, conductividad térmica y eléctrica, maleabilidad y ductilidad. En joyería se clasifican principalmente en:
       
       .row.justify-content-center.align-items-center.mb-5
@@ -121,7 +122,7 @@
         .mb-0
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-6.col-lg-2.mb-lg-0.mb-3(data-aos="zoom-in-right")
+      .col-6.col-lg-2.mb-lg-0.mb-3(data-aos="flip-left")
         figure
           img(src="@/assets/curso/temas/tema_1/img_6.png", class="img-fluid")
       .col-12.col-lg-8(data-aos="zoom-in-right")

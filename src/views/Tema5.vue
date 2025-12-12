@@ -25,7 +25,7 @@
         p.mb-0 Las piezas para joyería son objetos decorativos o funcionales elaborados principalmente con metales preciosos y que pueden incorporar gemas, cerámicas, maderas u otros materiales. Se clasifican según su forma, uso o función dentro de la joya. Esta clasificación facilita la selección de técnicas de elaboración y la planificación del proceso productivo.
     
     .row.justify-content-center.align-items-center.mb-0
-      .col-8.col-lg-3.mb-lg-0.mb-3
+      .col-8.col-lg-3.mb-lg-0.mb-3(data-aos="flip-left")
         figure
           img(src='@/assets/curso/temas/tema_5/img_2.png', class="img-fluid")
       .col-12.col-lg-7
@@ -36,57 +36,36 @@
                 .col-12.mb-3
                   .tarjeta--9
                 h5.mb-3.text-center
-                  span.texto-resaltado.texto-resaltado--color-acento-botones.rounded-0 Anillos 
-                p.mb-3.text-center Piezas circulares que se ajustan al dedo. Pueden ser lisos, con engastes o con diseño calado.
+                  span.texto-resaltado.texto-resaltado--color-acento-botones.rounded-0 Gramo  (g)
+                p.mb-3.text-center Unidad principal para calcular peso total, metal fino y ligas. Ejemplo: 10 g × 0.750. Todos los cálculos de composición parten del gramo.
             .tarjeta--color-primario-10.h-95
               .row.justify-content-center.align-items-center.mb-0
                 .col-12.mb-3
                   .tarjeta--10
                 h5.mb-3.text-center
-                  span.texto-resaltado.texto-resaltado--color-acento-botones.rounded-0 Aretes
-                p.mb-3.text-center Piezas que se colocan en las orejas, como topos, argollas o colgantes. Suelen requerir sistemas de cierre.
+                  span.texto-resaltado.texto-resaltado--color-acento-botones.rounded-0 Miligramo (mg)
+                p.mb-3.text-center Útil para medir pequeñas cantidades como soldaduras o ajustes mínimos en la proporción de ligas cuando el peso total es muy bajo.
             .tarjeta--color-primario-10.h-95
               .row.justify-content-center.align-items-center.mb-0
                 .col-12.mb-3
                   .tarjeta--11
                 h5.mb-3.text-center
-                  span.texto-resaltado.texto-resaltado--color-acento-botones.rounded-0 Cadenas y collares
-                p.mb-3.text-center Formados por eslabones o mallas; pueden sostener dijes o estar decorados por sí mismos.
+                  span.texto-resaltado.texto-resaltado--color-acento-botones.rounded-0 Onza troy (oz t)
+                p.mb-3.text-center Relacionada con el valor comercial del oro y plata. Permite convertir precios del metal cuando se calculan costos de las aleaciones usadas.
             .tarjeta--color-primario-10.h-95
               .row.justify-content-center.align-items-center.mb-0
                 .col-12.mb-3
                   .tarjeta--12
                 h5.mb-3.text-center
-                  span.texto-resaltado.texto-resaltado--color-acento-botones.rounded-0 Pulseras
-                p.mb-3.text-center Similar a las cadenas, pero diseñadas para la muñeca. Incluyen rígidas, articuladas o de eslabones.
+                  span.texto-resaltado.texto-resaltado--color-acento-botones.rounded-0 Kilate (K)
+                p.mb-3.text-center Indica pureza del oro. Su aplicación es directa: convertir K a milésimas para calcular metal fino y ajustar aleaciones como 18K o 14K.
             .tarjeta--color-primario-10.h-95
               .row.justify-content-center.align-items-center.mb-0
                 .col-12.mb-3
                   .tarjeta--13
                 h5.mb-3.text-center
-                  span.texto-resaltado.texto-resaltado--color-acento-botones.rounded-0 Dijes y colgantes
-                p.mb-3.text-center Elementos decorativos que cuelgan de cadenas o pulseras, con formas variadas.
-            .tarjeta--color-primario-10.h-95
-              .row.justify-content-center.align-items-center.mb-0
-                .col-12.mb-3
-                  .tarjeta--14
-                h5.mb-3.text-center
-                  span.texto-resaltado.texto-resaltado--color-acento-botones.rounded-0 Broches y pasadores
-                p.mb-3.text-center Piezas con mecanismos que permiten unir o sujetar prendas.
-            .tarjeta--color-primario-10.h-95
-              .row.justify-content-center.align-items-center.mb-0
-                .col-12.mb-3
-                  .tarjeta--15
-                h5.mb-3.text-center
-                  span.texto-resaltado.texto-resaltado--color-acento-botones.rounded-0 Monturas y engastes
-                p.mb-3.text-center Estructuras diseñadas para sostener gemas o circonias.
-            .tarjeta--color-primario-10.h-95
-              .row.justify-content-center.align-items-center.mb-0
-                .col-12.mb-3
-                  .tarjeta--16
-                h5.mb-3.text-center
-                  span.texto-resaltado.texto-resaltado--color-acento-botones.rounded-0 Componentes complementarios
-                p.mb-3.text-center Aros, argollas, tapas, seguros, pasadores, bases, entre otros que completan una pieza.
+                  span.texto-resaltado.texto-resaltado--color-acento-botones.rounded-0 Milésimas (‰)
+                p.mb-3.text-center Representa pureza exacta. Ejemplo: 750 milésimas. Se usa para definir cuánto metal precioso real entra en la mezcla según la norma de aleación trabajada.
 
     Separador 
 
@@ -100,9 +79,9 @@
           p.mb-0 Cada pieza de joyería debe cumplir características específicas que garantizan su funcionalidad, durabilidad y apariencia estética. Estas características también determinan los insumos y las aleaciones necesarias para su fabricación.
       
       .row.justify-content-center.align-items-center.mb-5
-        .col-12.col-lg-7.order-2.order-lg-1.mb-0
+        .col-12.col-lg-7.order-2.order-lg-1.mb-0(data-aos="fade-right")
           AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--color-sistema-h")
-            div(titulo="Precisión  dimensional")
+            div(titulo="Precisión dimensional")
               p.mb-0 La pieza debe cumplir medidas exactas para su ensamble y comodidad del usuario.
             div(titulo="Acabado superficial")
               p.mb-0 Debe presentar brillo, textura homogénea y ausencia de arañazos o porosidad.
@@ -110,7 +89,7 @@
               p.mb-0 Depende del uso: un anillo requiere mayor resistencia que un dije.
             div(titulo="Simetría y proporción")
               p.mb-0 Garantizan equilibrio visual y calidad artesanal.
-        .col-8.col-lg-3.order-1.order-lg-2.mb-lg-0.mb-3
+        .col-8.col-lg-3.order-1.order-lg-2.mb-lg-0.mb-3(data-aos="fade-right")
           figure
             img(src="@/assets/curso/temas/tema_5/img_12.png", class="img-fluid")
       
