@@ -320,8 +320,38 @@ export default {
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Anillos de Compromiso. (s. f.). <em>Metales preciosos explicados en breve</em>.',
+      link:
+        'https://www.anillosdecompromiso.es/pdf/es/metales-preciosos-explicados-enx-breve.pdf',
+    },
+    {
+      referencia:
+        'Escuela de Joyería del Atlántico. (2020). <em>Metales y aleaciones en joyería</em> (Documento técnico).',
+      link:
+        'https://www.scribd.com/document/500955405/METALES-PRECIOSOS-Y-ALEACIONES-PARA-JOYERIA',
+    },
+    {
+      referencia:
+        "Institut français d'études andines. (2020). <em>El trabajo de los metales preciosos en el área andina: aportes arqueométricos</em>.",
+      link: 'https://books.openedition.org/ifea/13150',
+    },
+    {
+      referencia:
+        'Lleras Pérez, R. (2024). <em>Joyas de los Andes: Metales preciosos y orfebrería ancestral</em>. Banco Santander.',
+      link:
+        'https://banco.santander.cl/uploads/000/047/459/c82cd973-6163-46dc-84b7-5d9e47616bbd/original/Joyas-de-los-Andes-1.pdf',
+    },
+    {
+      referencia:
+        'Rodríguez, C. (s.f.). <em>Manual de técnicas y procesos básicos de joyería I</em>. Scribd.',
+      link:
+        'https://es.scribd.com/document/741581815/Manual-de-Te-cnicas-y-Procesos-Ba-sicos-de-Joyeri-a-I',
+    },
+    {
+      referencia:
+        'Trujillo, C. (2013). <em>Orfebrería en América Latina: métodos, historia y tradición. Cuadernos del Centro de Estudios de Diseño y Comunicación</em>, (46), 115–153.',
+      link: 'https://dialnet.unirioja.es/descarga/articulo/7370102.pdf',
     },
   ],
   creditos: [

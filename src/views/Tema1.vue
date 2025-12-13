@@ -234,7 +234,7 @@
     .cita-decorada(data-aos="zoom-in-right")
       blockquote.cita-decorada__caja.cita-decorada__caja--fondo-3.p-5
         .row.justify-content-center.align-items-center
-          .col-10.col-lg-8 
+          .col-12.col-lg-8 
             p.cita-decorada__texto.mb-2.p-3 <B>A continuación, se ejemplifica cómo se usan los símbolos en el trabajo real con metales.</B> Cuando se prepara una aleación, por ejemplo, de oro 18 K, normalmente aparece escrita como Au 750 / Ag 125 / Cu 125, lo que simplemente indica cuánto oro, plata y cobre se mezclan. En los pasos del proceso se puede ver algo como Au + Cu ∆ → Aleación, donde ∆ solo significa que hay que aplicar calor, y la flecha → muestra el resultado de la mezcla. En la joya terminada suele grabarse 750 para indicar su pureza, junto con el sello del taller. Además, durante la limpieza del metal se usan productos que llevan símbolos de corrosivo o tóxico, los cuales sirven para saber que se deben manipular con cuidado.
           .col-8.col-lg-4.d-none.d-lg-block
             figure

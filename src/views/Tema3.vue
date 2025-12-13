@@ -30,8 +30,8 @@
         .col-8.col-lg-3.mb-lg-0.mb-3
           figure
             img(src='@/assets/curso/temas/tema_3/img_3.png', class="img-fluid")
-        .col-12.col-lg-7
-          .custom-slider.p-3.p-sm-3(data-aos="zoom-in-right")
+        .col-12.col-lg-8
+          .custom-slider.p-2.p-sm-3(data-aos="zoom-in-right")
             SlyderF(columnas="col-12 col-sm-12 col-md-12 col-lg-6")
               .tarjeta--blanca-1.h-95
                 .row.justify-content-center.align-items-center.mb-0
@@ -178,7 +178,7 @@
               .col-12.col-lg-3.mb-lg-0.mb-3.d-flex
                 figure.d-flex.align-items-stretch.w-100.mb-3
                   img(src='@/assets/curso/temas/tema_3/img_14.png', class="img-fluid")
-              .col-12.col-lg-9.mb-lg-0.mb-3.text-justify
+              .col-12.col-lg-9.mb-lg-0.mb-3.text-start
                 h3.mb-3 Identificar la pureza deseada
                 p.mb-0 Se identifica el nivel de pureza con el que debe elaborarse la aleación, ya sea 14K, 18K, Ley 750, Ley 925, entre otros. Este valor determina cuánto metal fino y cuánta liga se utilizará.
             .row.justify-content-center.align-items-center.mb-0
@@ -193,7 +193,7 @@
               .col-12.col-lg-4.mb-lg-0.mb-3
                 figure
                   img(src='@/assets/curso/temas/tema_3/img_16.png', class="img-fluid")
-              .col-12.col-lg-8.mb-0.text-justify
+              .col-12.col-lg-8.mb-0.text-start
                 h3.mb-3 Calcular la cantidad total de ligas
                 p.mb-0 Se resta la cantidad de metal fino al peso total.
                 p.mb-0 <B>Ejemplo:</B> 10 g – 7.5 g = 2.5 g de ligas.
@@ -208,7 +208,7 @@
               .col-12.col-lg-4.mb-lg-0.mb-3
                 figure
                   img(src='@/assets/curso/temas/tema_3/img_18.png', class="img-fluid")
-              .col-12.col-lg-8.mb-0.text-justify
+              .col-12.col-lg-8.mb-0.text-start
                 h3.mb-3 Determinar el fundente
                 p.mb-0 Se adiciona entre 1 % y 3 % del peso total de la aleación para facilitar la fusión y mejorar la limpieza del metal.
             .row.justify-content-center.align-items-center.mb-0
