@@ -21,9 +21,9 @@
       .col-6.col-lg-3.mb-lg-0.mb-3(data-aos="flip-left")
         figure
           img(src="@/assets/curso/temas/tema_2/img_1.png", class="img-fluid")
-      .col-12.col-lg-8(data-aos="zoom-in-right")
+      .col-12.col-lg-7(data-aos="zoom-in-right")
         p.mb-3 La merma corresponde a la pérdida inevitable de metal que ocurre en actividades como fundición, laminado, limado, corte, estirado, soldadura y pulido. Esta pérdida puede manifestarse como limaduras, partículas finas, evaporación por temperatura o restos adheridos a crisoles y herramientas. Aunque el metal no se pierde totalmente, dado que puede recuperarse mediante afinación, esto sí afecta el peso disponible para la pieza final. Las principales causas comunes de la merma son:
-        .row.justify-content-center.align-items-center.g-3
+        .row.justify-content-start.align-items-start.g-3
           .col-12.col-lg-5(data-aos="fade-up")
             .tarjeta-causa.h-100
               .d-flex.align-items-center.gap-3
@@ -45,7 +45,7 @@
                 .icono-causa
                   img(src="@/assets/curso/temas/tema_2/img_2.svg", class="img-fluid")
                 .texto-causa
-                  p.mb-0 Pérdidas en el proceso.
+                  p.mb-0 Evaporación o quemado de aleantes en la fundición.
       
           .col-12.col-lg-7(data-aos="fade-up")
             .tarjeta-causa.h-100
@@ -53,16 +53,16 @@
                 .icono-causa
                   img(src="@/assets/curso/temas/tema_2/img_2.svg", class="img-fluid")
                 .texto-causa
-                  p.mb-0 Evaporación o quemado de aleantes en la fundición.
+                  p.mb-0 Material que se desprende al estirar o laminar el metal.
       
-          .col-12.col-lg-10(data-aos="fade-up")
+          .col-12.col-lg-7.text-start(data-aos="fade-up")
             .tarjeta-causa.h-100
-              .d-flex.align-items-center.gap-3
+              .d-flex.align-items-center.gap-3.justify-content-start
                 .icono-causa
                   img(src="@/assets/curso/temas/tema_2/img_2.svg", class="img-fluid")
                 .texto-causa
-                  p.mb-0 Material que se desprende al estirar o laminar el metal.
-    
+                  p.mb-0 Pérdidas en el pulido y acabado.
+
     .bg_img_2.mb-5
       
       .row.justify-content-center.align-items-center.mb-5
@@ -92,7 +92,7 @@
             .col-8.col-lg-4.d-none.d-lg-block
               figure
                 img(src='@/assets/curso/temas/tema_2/img_5.png', class="cita-decorada__imagen-flotante-3")
-            .col-10.col-lg-8
+            .col-12.col-lg-8
               p.cita-decorada__texto.mb-2.p-3 Los formatos de registro de merma permiten documentar de manera organizada las pérdidas de metal que ocurren durante procesos como fundición, limado, laminado, soldadura o recuperación. Su uso garantiza trazabilidad, control de materiales y verificación de que las cantidades finales coinciden con lo proyectado en la aleación. Además, facilitan auditorías internas, cálculos contables y la toma de decisiones sobre eficiencia del proceso.
               p.cita-decorada__texto.mb-2.p-3 En el taller de joyería, estos formatos se convierten en evidencia del trabajo realizado, pues detallan el peso inicial de la pieza o aleación, los residuos generados y el peso recuperado en cada actividad. De esta manera, se identifican puntos críticos donde se produce mayor pérdida y se pueden aplicar mejoras para reducir costos y optimizar materiales valiosos como el oro, la plata o el platino.
     

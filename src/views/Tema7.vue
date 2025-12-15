@@ -77,10 +77,10 @@
           p.mb-0 La masa es el eje central del componente, ya que todos los cálculos de aleaciones (fino, ligas, mermas, fundentes, entre otras) dependen directamente del peso. Cada unidad está vinculada al proceso de mezcla de metales, preparación de recetas, control de purezas y estimación de pérdidas.
     
     .row.justify-content-center.align-items-center.mb-0
-      .col-8.col-lg-3.mb-lg-0.mb-3(data-aos="flip-left")
+      .col-8.col-sm-8.col-md-6.col-lg-6.col-xl-3.col-xxl-3.mb-xl-0.mb-xxl-0.mb-3(data-aos="flip-left")
         figure
           img(src='@/assets/curso/temas/tema_7/img_9.png', class="img-fluid")
-      .col-12.col-lg-7
+      .col-12.col-sm-12.col-md-12.col-lg-12.col-xl-7.col-xxl-7.mb-0
         .custom-slider.p-3.p-sm-3(data-aos="zoom-in-right")
           SlyderF(columnas="col-12 col-sm-12 col-md-12 col-lg-6")
             .tarjeta--color-primario-10.h-95
@@ -88,36 +88,36 @@
                 .col-12.mb-3
                   .tarjeta--17
                 h5.mb-3.text-center
-                  span.texto-resaltado.texto-resaltado--color-acento-botones.rounded-0 Anillos 
-                p.mb-3.text-center Piezas circulares que se ajustan al dedo. Pueden ser lisos, con engastes o con diseño calado.
+                  span.texto-resaltado.texto-resaltado--color-acento-botones.rounded-0 Gramo (g) 
+                p.mb-3.text-center Unidad principal para calcular peso total, metal fino y ligas. Ejemplo: 10 g × 0.750. Todos los cálculos de composición parten del gramo.
             .tarjeta--color-primario-10.h-95
               .row.justify-content-center.align-items-center.mb-0
                 .col-12.mb-3
                   .tarjeta--18
                 h5.mb-3.text-center
-                  span.texto-resaltado.texto-resaltado--color-acento-botones.rounded-0 Aretes
-                p.mb-3.text-center Piezas que se colocan en las orejas, como topos, argollas o colgantes. Suelen requerir sistemas de cierre.
+                  span.texto-resaltado.texto-resaltado--color-acento-botones.rounded-0 Miligramo (mg)
+                p.mb-3.text-center Útil para medir pequeñas cantidades como soldaduras o ajustes mínimos en la proporción de ligas cuando el peso total es muy bajo.
             .tarjeta--color-primario-10.h-95
               .row.justify-content-center.align-items-center.mb-0
                 .col-12.mb-3
                   .tarjeta--19
                 h5.mb-3.text-center
-                  span.texto-resaltado.texto-resaltado--color-acento-botones.rounded-0 Cadenas y collares
-                p.mb-3.text-center Formados por eslabones o mallas; pueden sostener dijes o estar decorados por sí mismos.
+                  span.texto-resaltado.texto-resaltado--color-acento-botones.rounded-0 Onza troy (oz t)
+                p.mb-3.text-center Relacionada con el valor comercial del oro y plata. Permite convertir precios del metal cuando se calculan costos de las aleaciones usadas.
             .tarjeta--color-primario-10.h-95
               .row.justify-content-center.align-items-center.mb-0
                 .col-12.mb-3
                   .tarjeta--20
                 h5.mb-3.text-center
-                  span.texto-resaltado.texto-resaltado--color-acento-botones.rounded-0 Pulseras
-                p.mb-3.text-center Similar a las cadenas, pero diseñadas para la muñeca. Incluyen rígidas, articuladas o de eslabones.
+                  span.texto-resaltado.texto-resaltado--color-acento-botones.rounded-0 Kilate (K)
+                p.mb-3.text-center Indica pureza del oro. Su aplicación es directa: convertir K a milésimas para calcular metal fino y ajustar aleaciones como 18K o 14K.
             .tarjeta--color-primario-10.h-95
               .row.justify-content-center.align-items-center.mb-0
                 .col-12.mb-3
                   .tarjeta--21
                 h5.mb-3.text-center
-                  span.texto-resaltado.texto-resaltado--color-acento-botones.rounded-0 Dijes y colgantes
-                p.mb-3.text-center Elementos decorativos que cuelgan de cadenas o pulseras, con formas variadas.
+                  span.texto-resaltado.texto-resaltado--color-acento-botones.rounded-0 Milésimas (‰)
+                p.mb-3.text-center Representa pureza exacta. Ejemplo: 750 milésimas. Se usa para definir cuánto metal precioso real entra en la mezcla según la norma de aleación trabajada.
             
     Separador 
 

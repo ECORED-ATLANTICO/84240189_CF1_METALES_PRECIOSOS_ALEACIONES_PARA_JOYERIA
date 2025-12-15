@@ -375,11 +375,6 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Paola Andrea Bobadilla Gutiérrez',
-          cargo: 'Guionista línea de producción',
-          centro: 'Centro Agroindustrial - Regional Quindío',
-        },
-        {
           nombre: 'Heydy Cristina González García',
           cargo: 'Evaluador Instruccional',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',

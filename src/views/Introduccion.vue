@@ -20,12 +20,12 @@
               .col-4.col-lg-2.d-none.d-lg-block
                 figure
                   img(src='@/assets/curso/introduccion/img_2.png', class="img-fluid d-none d-lg-block mb-0")
-              .col-9.col-lg-10
+              .col-12.col-lg-10
                 p.cita-decorada__texto.mb-2.p-3 Este componente también enfatiza el análisis de los materiales e insumos para fundición y la comprensión de las piezas de joyería, con un enfoque en las condiciones físicas, mecánicas y de calidad del producto final. Además, promueve el manejo adecuado de unidades de medida y de instrumentos de peso, integrando criterios de rigurosidad técnica. Así, se contribuye a la formación de un aprendiz competente en procesos de aleación y transformación de metales preciosos.
     
     figure.mb-5
       .video.mb-2
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/Upcvs8smTzI?si=2U47IJ3jTRFSr8kR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/ZQgiaWmrVpg?si=VtbsLii1HnGZN7xm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video: Plan de mercadeo
 
 </template>

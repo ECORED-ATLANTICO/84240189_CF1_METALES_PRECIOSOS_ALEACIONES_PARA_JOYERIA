@@ -25,10 +25,10 @@
         p.mb-0 Las piezas para joyería son objetos decorativos o funcionales elaborados principalmente con metales preciosos y que pueden incorporar gemas, cerámicas, maderas u otros materiales. Se clasifican según su forma, uso o función dentro de la joya. Esta clasificación facilita la selección de técnicas de elaboración y la planificación del proceso productivo.
     
     .row.justify-content-center.align-items-center.mb-0
-      .col-8.col-lg-3.mb-lg-0.mb-3(data-aos="flip-left")
+      .col-8.col-sm-8.col-md-6.col-lg-6.col-xl-3.col-xxl-3.mb-xl-0.mb-xxl-0.mb-3(data-aos="flip-left")
         figure
           img(src='@/assets/curso/temas/tema_5/img_2.png', class="img-fluid")
-      .col-12.col-lg-7
+      .col-12.col-sm-12.col-md-12.col-lg-12.col-xl-7.col-xxl-7.mb-0
         .custom-slider.p-3.p-sm-3(data-aos="zoom-in-right")
           SlyderF(columnas="col-12 col-sm-12 col-md-12 col-lg-6")
             .tarjeta--color-primario-10.h-95

@@ -13,7 +13,7 @@
           .col-8.col-lg-3.d-none.d-lg-block
             figure
               img(src='@/assets/curso/temas/tema_1/img_1.png', class="cita-decorada__imagen-flotante-1")
-          .col-10.col-lg-9
+          .col-12.col-lg-9
             p.cita-decorada__texto.mb-2.p-3 Los metales constituyen la base fundamental de los procesos de aleación aplicados en la joyería, ya que sus propiedades químicas, físicas y mecánicas determinan el comportamiento del material frente a la fundición, deformación, laminado y acabado final de las piezas. Comprender su estructura interna, su clasificación y su origen permite seleccionar adecuadamente los elementos que intervienen en una aleación y anticipar su respuesta ante distintas condiciones de trabajo. Este conocimiento, articulado con la afinación, la recuperación y la correcta interpretación de la simbología química, brinda al aprendiz la capacidad de evaluar la pureza de los metales, identificar su compatibilidad con otros elementos y establecer composiciones estables y conformes a los estándares de la industria. De esta manera, el estudio de los metales se convierte en un eje central para la formulación precisa de aleaciones utilizadas en joyería fina y artesanal.
 
     Separador 
@@ -72,13 +72,13 @@
             p <b>Fuente:</b> SENA, 2025.
           thead
             tr
-              th Físicas.
-              th Propiedad
-              th Descripción
-              th Aplicación en joyería
+              th.col-2 Tipo de propiedad
+              th.col-2 Propiedad
+              th.col-4  Descripción
+              th.col-4 Aplicación en joyería
           tbody
             tr
-              td(rowspan="3") Tangibilidad.
+              td(rowspan="3") Físicas.
               td Densidad.
               td Relación entre masa y volumen del metal.
               td Determina el peso final de la joya; influye en la sensación de valor y comodidad.
@@ -91,7 +91,7 @@
               td Capacidad de transferir calor.
               td Afecta el comportamiento en fundición y soldadura; requiere ajustar la intensidad del calor.
             tr
-              td(rowspan="3") Perecibilidad.
+              td(rowspan="3") Mecánicas.
               td Dureza.
               td Resistencia al rayado, impacto y deformación permanente.
               td Útil para anillos, broches y piezas expuestas al desgaste; influye en la resistencia del acabado.
@@ -232,9 +232,9 @@
                 p.mb-0 Son representaciones gráficas que advierten peligros asociados a sustancias usadas en afinación, limpieza y procesos de preparación del metal. Estos símbolos permiten reconocer si un producto puede causar corrosión en la piel, si es inflamable o si genera vapores tóxicos, ayudando a manipular fundentes, ácidos y soluciones de limpieza de forma segura.
 
     .cita-decorada(data-aos="zoom-in-right")
-      blockquote.cita-decorada__caja.cita-decorada__caja--fondo-3.p-5
+      blockquote.cita-decorada__caja.cita-decorada__caja--fondo-3.p-2
         .row.justify-content-center.align-items-center
-          .col-12.col-lg-8 
+          .col-12.mt-4.col-lg-8 
             p.cita-decorada__texto.mb-2.p-3 <B>A continuación, se ejemplifica cómo se usan los símbolos en el trabajo real con metales.</B> Cuando se prepara una aleación, por ejemplo, de oro 18 K, normalmente aparece escrita como Au 750 / Ag 125 / Cu 125, lo que simplemente indica cuánto oro, plata y cobre se mezclan. En los pasos del proceso se puede ver algo como Au + Cu ∆ → Aleación, donde ∆ solo significa que hay que aplicar calor, y la flecha → muestra el resultado de la mezcla. En la joya terminada suele grabarse 750 para indicar su pureza, junto con el sello del taller. Además, durante la limpieza del metal se usan productos que llevan símbolos de corrosivo o tóxico, los cuales sirven para saber que se deben manipular con cuidado.
           .col-8.col-lg-4.d-none.d-lg-block
             figure

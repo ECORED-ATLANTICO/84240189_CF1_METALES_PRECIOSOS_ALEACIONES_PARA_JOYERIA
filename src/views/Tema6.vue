@@ -10,12 +10,12 @@
     .row.justify-content-center.align-items-center.mb-0
       .col-12.col-lg-10
         .cita-decorada(data-aos="zoom-in-right")
-          blockquote.cita-decorada__caja.cita-decorada__caja--fondo-2.p-4
+          blockquote.cita-decorada__caja.cita-decorada__caja--fondo-2.p-3
             .row.justify-content-center.align-items-center
               .col-8.col-lg-3.d-none.d-lg-block
                 figure
                   img(src='@/assets/curso/temas/tema_6/img_1.png', class="cita-decorada__imagen-flotante-5")
-              .col-10.col-lg-9
+              .col-12.col-lg-9
                 p.cita-decorada__texto.mb-2.p-3 La matemática básica constituye una herramienta esencial para el trabajo en joyería, ya que permite realizar cálculos precisos en la preparación de aleaciones, la determinación de insumos, el control de mermas y la medición de materiales. El dominio de estas operaciones garantiza exactitud, aprovechamiento eficiente del metal y calidad en los procesos de fabricación.
 
     Separador 
@@ -74,9 +74,9 @@
       .row.justify-content-center.align-items-center.mb-5
         .col-12.col-lg-10(data-aos="zoom-in-right")
           .cita-decorada(data-aos="zoom-in-right")
-            blockquote.cita-decorada__caja.cita-decorada__caja--fondo-3.p-3
+            blockquote.cita-decorada__caja.cita-decorada__caja--fondo-3.p-2
               .row.justify-content-center.align-items-center
-                .col-10.col-lg-8
+                .col-12.mt-3.col-lg-8
                   p.cita-decorada__texto.mb-2.p-3 Estas operaciones permiten operar con cantidades pequeñas y exactas, característica fundamental en la manufactura de joyas y metales preciosos, donde una mínima variación puede alterar la ley final o la calidad de la pieza.
                 .col-8.col-lg-4.d-none.d-lg-block
                   figure
@@ -106,16 +106,16 @@
     
     .titulo-sexto.color-tabla.mb-3(data-aos="fade-right")
       h5 Tabla 3. 
-      |  Fórmulas para cálculo de aleaciones
+      |  Aplicación de porcentajes en las aleaciones
     .tabla-a.mb-5(data-aos="flip-left")
       table
         caption
           p <b>Fuente:</b> SENA, 2025.
         thead
           tr
-            th Cálculo
-            th Procedimiento
-            th Ejemplo 
+            th.col-3 Cálculo
+            th.col-4 Procedimiento
+            th.col-5 Ejemplo 
         tbody
           tr
             td Convertir kilates a milésimas.
@@ -151,16 +151,16 @@
 
     .titulo-sexto.color-tabla.mb-3(data-aos="fade-right")
       h5 Tabla 4. 
-      |  
-    .tabla-a.mb-5(data-aos="flip-left")
+      |  Aplicación práctica de la regla de tres en joyería
+    .tabla-a.mb-5(data-aos="fade-left")
       table
         caption
           p <b>Fuente:</b> SENA, 2025.
         thead
           tr
-            th Situación
-            th Aplicación
-            th Ejemplo 
+            th.col-3 Situación
+            th.col-4 Aplicación
+            th.col-5 Ejemplo 
         tbody
           tr
             td Ajustar cantidades cuando cambia el peso total.

@@ -27,10 +27,10 @@
           p.mb-5 Los insumos son materiales auxiliares utilizados en los procesos de fundición, afinación, limpieza, unión y acabado de metales preciosos. No se integran como componente principal de la joya, pero intervienen para facilitar transformaciones físicas y químicas, mejorar la manipulación del metal o protegerlo durante el proceso.
 
       .row.justify-content-center.align-items-center.mb-0
-        .col-8.col-lg-3.mb-lg-0.mb-3
+        .col-8.col-sm-8.col-md-6.col-lg-6.col-xl-3.col-xxl-3.mb-xl-0.mb-xxl-0.mb-3
           figure
             img(src='@/assets/curso/temas/tema_3/img_3.png', class="img-fluid")
-        .col-12.col-lg-8
+        .col-12.col-sm-12.col-md-12.col-lg-12.col-xl-7.col-xxl-7.mb-0
           .custom-slider.p-2.p-sm-3(data-aos="zoom-in-right")
             SlyderF(columnas="col-12 col-sm-12 col-md-12 col-lg-6")
               .tarjeta--blanca-1.h-95
@@ -226,15 +226,15 @@
     .titulo-sexto.color-tabla.mb-3(data-aos="fade-right")
       h5 Tabla 2. 
       |  Fórmulas para cálculo de aleaciones
-    .tabla-a.mb-5(data-aos="flip-left")
+    .tabla-a.mb-5(data-aos="fade-left")
       table
         caption
           p <b>Fuente:</b> SENA, 2025.
         thead
           tr
-            th Cálculo
-            th Fórmula
-            th Descripción
+            th.col-3 Cálculo
+            th.col-3 Fórmula
+            th.c0l-6 Descripción
         tbody
           tr
             td Convertir kilates a milésimas.
@@ -244,10 +244,6 @@
             td Metal fino (g).
             td Peso total × pureza
             td Indica cuántos gramos corresponden al metal precioso (oro, plata, entre otros).
-          tr
-            td Conductividad térmica.
-            td Capacidad de transferir calor.
-            td Afecta el comportamiento en fundición y soldadura; requiere ajustar la intensidad del calor.
           tr
             td Metales de liga (g).
             td Peso total – metal fino
