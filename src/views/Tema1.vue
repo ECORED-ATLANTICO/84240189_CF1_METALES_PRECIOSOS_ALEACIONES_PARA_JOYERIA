@@ -231,7 +231,7 @@
               .col-12.col-lg-12.mb-0
                 p.mb-0 Son representaciones gráficas que advierten peligros asociados a sustancias usadas en afinación, limpieza y procesos de preparación del metal. Estos símbolos permiten reconocer si un producto puede causar corrosión en la piel, si es inflamable o si genera vapores tóxicos, ayudando a manipular fundentes, ácidos y soluciones de limpieza de forma segura.
 
-    .cita-decorada(data-aos="zoom-in-right")
+    .cita-decorada(data-aos="fade-left")
       blockquote.cita-decorada__caja.cita-decorada__caja--fondo-3.p-2
         .row.justify-content-center.align-items-center
           .col-12.mt-4.col-lg-8 
