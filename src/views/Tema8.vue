@@ -75,7 +75,7 @@
 
         p.mb-0(data-aos="fade-right") El manejo correcto de los instrumentos garantiza que los cálculos de metal fino, ligas, merma y fundentes sean precisos. Esto evita errores en la pureza final y asegura que la aleación cumpla con la ley establecida: 
     
-    .row.justify-content-center.align-items-center.mb-3
+    .row.justify-content-center.align-items-start.mb-3
       .col-7.col-lg-3.mb-lg-0.mb-3(data-aos="flip-left")
         figure
           img(src='@/assets/curso/temas/tema_8/img_8.png', class="img-fluid")
@@ -83,25 +83,25 @@
         LineaTiempoD.color-primario-10
           .row(numero="1" titulo="Nivelar la balanza")
             .col-md-12.mb-3.mb-md-0
-              p.text-small Una balanza desnivelada altera el cálculo del metal fino y provoca errores en la receta de la aleación.
+              p.mb-3 Una balanza desnivelada altera el cálculo del metal fino y provoca errores en la receta de la aleación.
           .row(numero="2" titulo="Encender y estabilizar antes de pesar")
             .col-md-12.mb-3.mb-md-0
-              p.text-small Evita fluctuaciones que pueden modificar gramos necesarios para ligas o fundentes.
+              p.mb-3 Evita fluctuaciones que pueden modificar gramos necesarios para ligas o fundentes.
           .row(numero="3" titulo="Usar recipientes tareados")
             .col-md-12.mb-3.mb-md-0
-              p.text-small Permite descontar el peso del recipiente para obtener solo el peso real del metal. Indispensable al fundir oro o plata recuperada.
+              p.mb-3 Permite descontar el peso del recipiente para obtener solo el peso real del metal. Indispensable al fundir oro o plata recuperada.
           .row(numero="4" titulo="Evitar corrientes de aire o vibraciones")
             .col-md-12.mb-3.mb-md-0
-              p.text-small Afecta especialmente balanzas analíticas; un error de 0.01 g cambia proporciones de aleación en piezas pequeñas.
+              p.mb-3 Afecta especialmente balanzas analíticas; un error de 0.01 g cambia proporciones de aleación en piezas pequeñas.
           .row(numero="5" titulo="Limpiar después de cada uso")
             .col-md-12.mb-3.mb-md-0
-              p.text-small Previene contaminación cruzada entre metales o partículas que puedan alterar la pureza.
+              p.mb-3 Previene contaminación cruzada entre metales o partículas que puedan alterar la pureza.
           .row(numero="6" titulo="Calibrar periódicamente con pesas patrón")
             .col-md-12.mb-3.mb-md-0
-              p.text-small Garantiza exactitud en cálculos de metales preciosos, evitando que una desviación afecte purezas como 750 o 925.
+              p.mb-3 Garantiza exactitud en cálculos de metales preciosos, evitando que una desviación afecte purezas como 750 o 925.
           .row(numero="7" titulo="Registrar pesos antes y después del proceso")
             .col-md-12.mb-3.mb-md-0
-              p.text-small Permite calcular merma real y ajustar futuras cargas para fundición.
+              p.mb-3 Permite calcular merma real y ajustar futuras cargas para fundición.
 </template>
 
 <script>

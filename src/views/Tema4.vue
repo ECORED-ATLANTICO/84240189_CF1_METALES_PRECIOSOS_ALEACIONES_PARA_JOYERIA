@@ -144,7 +144,7 @@
                       span Forman una película protectora que atrapa impurezas.
                     li.mb-2.d-flex.align-items-start
                       i.lista-ul__vineta.me-2
-                      span Deben ser usados en proporciones exactas para evitar fragilidad o grietas.
+                      span Su tipo varía según el metal (oro, plata o platino).
                     
             .tarjeta.color-secundario-10.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Desoxidantes")
               .row.justify-content-center.align-items-center.mb-0

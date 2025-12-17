@@ -323,7 +323,7 @@ export default {
       referencia:
         'Anillos de Compromiso. (s. f.). <em>Metales preciosos explicados en breve</em>.',
       link:
-        'https://www.anillosdecompromiso.es/pdf/es/metales-preciosos-explicados-enx-breve.pdf',
+        'https://www.anillosdecompromiso.es/pdf/es/metales-preciosos-explicados-en-breve.pdf',
     },
     {
       referencia:
@@ -358,12 +358,6 @@ export default {
     {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
-        {
-          nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo:
-            'Responsable del Ecosistema de Recursos Educativos Digitales (RED)',
-          centro: 'Dirección General',
-        },
         {
           nombre: 'Miguel de Jesús Paredes Maestre',
           cargo: 'Responsable de la línea de producción',
