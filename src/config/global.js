@@ -370,12 +370,12 @@ export default {
       autores: [
         {
           nombre: 'Heydy Cristina González García',
-          cargo: 'Evaluador Instruccional',
+          cargo: 'Evaluador instruccional',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Jair Coll Gallardo',
-          cargo: 'Evaluador Instruccional',
+          nombre: 'Jair Enrique Coll Gallardo',
+          cargo: 'Evaluador instruccional',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
@@ -394,7 +394,7 @@ export default {
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Alexander Rafael Acosta Bedoya',
+          nombre: 'Nelson Iván Vera Briceño',
           cargo: 'Animador y productor audiovisual',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },

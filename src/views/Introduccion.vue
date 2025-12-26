@@ -25,8 +25,8 @@
     
     figure.mb-5
       .video.mb-2
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/ZQgiaWmrVpg?si=VtbsLii1HnGZN7xm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Plan de mercadeo
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/ZQgiaWmrVpg?si=rxux4CFAVdDchrG-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video: Metales, insumos y cálculos para aleaciones
 
 </template>
 

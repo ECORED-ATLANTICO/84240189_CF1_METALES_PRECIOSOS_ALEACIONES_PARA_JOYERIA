@@ -22,7 +22,7 @@ export default {
       introduccion:
         '<b> Objetivo:</b> identificar las características de los metales preciosos, los insumos y los procesos de cálculo necesarios para elaborar aleaciones conforme a los requerimientos técnicos de joyería.',
       barajarPreguntas: true,
-      titulo_aprobado: '¡BUEN TRABAJO!.',
+      titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {
